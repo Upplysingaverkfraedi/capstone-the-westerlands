@@ -39,7 +39,7 @@ mannfjoldi <- mannfjoldi %>%
 ### án mannfjölda
 ```{r}
 ui <- fluidPage(
-  titlePanel("Samanburður á tekjum og fasteignaverði eftir árum"),
+  titlePanel("Þróun á tekjum, fasteignaverði og mannfjölda eftir sveitarfélögum"),
   sidebarLayout(
     sidebarPanel(
       selectInput("sveitarfelag", "Veldu sveitarfélag:", choices = unique(tekjur$Sveitarfelag))
@@ -108,7 +108,7 @@ library(tidyr)
 
 # UI
 ui <- fluidPage(
-  titlePanel("Samanburður á tekjum og fasteignaverði eftir árum"),
+  titlePanel("Þróun á tekjum, fasteignaverði og mannfjölda eftir sveitarfélögum"),
   sidebarLayout(
     sidebarPanel(
       selectInput("sveitarfelag", "Veldu sveitarfélag:", choices = unique(tekjur$Sveitarfelag))
