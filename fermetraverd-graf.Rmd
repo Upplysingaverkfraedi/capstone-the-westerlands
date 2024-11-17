@@ -99,7 +99,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
-## Mannfjöldi í sama grafi
+## Með mannfjölda og búferlafluttningum
 ```{r}
 library(shiny)
 library(ggplot2)
@@ -114,7 +114,9 @@ ui <- fluidPage(
       selectInput("sveitarfelag", "Veldu sveitarfélag:", choices = unique(tekjur$Sveitarfelag))
     ),
     mainPanel(
-      plotOutput("combinedPlot")
+      plotOutput("combinedPlot"),
+      textOutput("adfluttir"),
+      textOutput("brottfluttir")
     )
   )
 )
@@ -122,7 +124,6 @@ ui <- fluidPage(
 # Server
 server <- function(input, output) {
   output$combinedPlot <- renderPlot({
-    
     # Filtrum gögnin fyrir valið sveitarfélag
     # Tekjur gögn
     tekjur_filtered <- tekjur[tekjur$Sveitarfelag == input$sveitarfelag, ]
@@ -183,18 +184,20 @@ server <- function(input, output) {
       scale_color_manual(values = c("Tekjur" = "blue", "Fasteignaverð" = "skyblue", "Mannfjöldi" = "green")) +
       theme_minimal()
   })
-   # Texta fyrir aðflutta og brottflutta 
-  output$adfluttir <- renderText({ 
-    gildi <- buferlar %>% filter(Sveitafélag == input$sveitarfelag) 
-    adfluttir <- gildi$Alls 
-    paste("Aðfluttir 2022:", adfluttir) 
-  }) 
-
-  output$brottfluttir <- renderText({ 
-    gildi <- buferlar %>% filter(Sveitafélag == input$sveitarfelag) 
-    brottfluttir <- gildi$Brottfluttir 
-    paste("Brottfluttir 2022:", brottfluttir) 
-  }) 
+  
+  # Texti fyrir aðflutta 2022
+  output$adfluttir <- renderText({
+    gildi <- buferlar %>% filter(Sveitafélag == input$sveitarfelag)
+    adfluttir <- gildi$Alls
+    paste("Aðfluttir 2022: ", adfluttir)
+  })
+  
+  # Texti fyrir brottflutta 2022
+  output$brottfluttir <- renderText({
+    gildi <- buferlar %>% filter(Sveitafélag == input$sveitarfelag)
+    brottfluttir <- gildi$Brottfluttir
+    paste("Brottfluttir 2022: ", brottfluttir)
+  })
 }
 
 # Keyra Shiny appið
