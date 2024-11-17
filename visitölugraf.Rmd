@@ -13,9 +13,13 @@ library(tidyverse)
 
 ```{r}
 library(readxl)
-visitala <- read_excel("/Users/Dalros/Desktop/Capstone-töflur.xlsx", sheet = "vísitala íbúðarverðs")
-View(visitala)
-visitalabygg <- read_excel("/Users/Dalros/Desktop/Capstone-töflur.xlsx", sheet = "visitala án íbúðarverðs")
+path <- "~/Desktop/Capstone-toflur.xlsx"
+fasteignaverd <- read_excel(path, 5, skip = 1)
+mannfjoldi <- read_excel(path, 6, skip = 1)
+visitalabygg <- read_excel(path,9)
+visitala<- read_excel(path, 8)
+tekjur <- read_excel(path, 10, skip = 2)
+buferlar <-read_excel(path, 7, skip = 2)
 ```
 
 
