@@ -1,0 +1,208 @@
+---
+title: "hækkunfasteignaverðs"
+author: "jakobina"
+date: "2024-11-07"
+output: html_document
+---
+
+```{r}
+install.packages("shiny")
+install.packages("ggplot2")
+install.packages("dplyr")
+library(tidyverse)
+library(readxl) 
+```
+
+
+```{r}
+path <- "~/Desktop/Capstone-toflur.xlsx"
+fasteignaverd <- read_excel(path, 5, skip = 1)
+mannfjoldi <- read_excel(path, 6, skip = 1)
+tekjur <- read_excel(path, 10, skip = 2)
+buferlar <-read_excel(path, 7, skip = 2)
+```
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(stringr)
+
+
+# Fjarlægja "Höfuðborgarsvæðið" og "Landsbyggðin" og fjarlægja "Á4" úr árunum
+mannfjoldi <- mannfjoldi %>%
+  filter(!grepl("Höfuðborgarsvæðið|Landsbyggðin", Sveitafelag)) %>% # Fjarlægja línurnar
+  rename_with(~ str_replace(., "Á4", ""), -Sveitafelag) # Fjarlægja "Á4" úr öllum árkollum
+
+```
+
+### án mannfjölda
+```{r}
+ui <- fluidPage(
+  titlePanel("Samanburður á tekjum og fasteignaverði eftir árum"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("sveitarfelag", "Veldu sveitarfélag:", choices = unique(tekjur$Sveitarfelag))
+    ),
+    mainPanel(
+      plotOutput("combinedPlot")
+    )
+  )
+)
+
+# Server
+server <- function(input, output) {
+  output$combinedPlot <- renderPlot({
+    
+    # Filtrum gögnin fyrir valið sveitarfélag
+     # Tekjur gögn
+    tekjur_filtered <- tekjur[tekjur$Sveitarfelag == input$sveitarfelag, ]
+    years <- as.numeric(names(tekjur_filtered)[2:ncol(tekjur_filtered)])
+    tekjur_values <- as.numeric(tekjur_filtered[1, 2:ncol(tekjur_filtered)])
+    
+    # Deila öllum tekjum með 12 (til að fá mánaðarlegar tekjur)
+    tekjur_values <- round(tekjur_values / 12, 2)
+    
+    tekjur_data <- data.frame(Ar = years, Gildi = tekjur_values, Flokkur = "Tekjur")
+    # Fasteignaverð gögn
+    fasteignaverd_filtered <- fasteignaverd %>%
+      filter(SVEITARFELAG == input$sveitarfelag) %>%
+      pivot_longer(cols = -SVEITARFELAG, names_to = "Ar", values_to = "Fasteignaverð") %>%
+      drop_na()
+
+    # Breyta árunum í númer og síun á ár frá 2010 og eftir
+    fasteignaverd_filtered$Ar <- as.numeric(fasteignaverd_filtered$Ar)
+    fasteignaverd_filtered <- fasteignaverd_filtered %>%
+      filter(Ar >= 2010)  # Síun á árum frá 2010 og eftir
+
+    fasteignaverd_data <- data.frame(
+      Ar = fasteignaverd_filtered$Ar,
+      Gildi = fasteignaverd_filtered$Fasteignaverð,
+      Flokkur = "Fasteignaverð"
+    )
+    
+    # Sameina gögnin í einn gagnaramma
+    combined_data <- rbind(tekjur_data, fasteignaverd_data)
+    
+    # Teikna sameinaða grafið
+    ggplot(combined_data, aes(x = Ar, y = Gildi, color = Flokkur)) +
+      geom_point(size = 3) +
+      geom_line(aes(group = Flokkur), size = 1) +
+      labs(title = paste("Samanburður á tekjum og fasteignaverði fyrir", input$sveitarfelag),
+           x = "Ár", y = "Gildi") +
+      scale_color_manual(values = c("Tekjur" = "blue", "Fasteignaverð" = "skyblue")) +
+      theme_minimal()
+  })
+}
+
+# Keyra Shiny appið
+shinyApp(ui = ui, server = server)
+```
+
+## Mannfjöldi í sama grafi
+```{r}
+library(shiny)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# UI
+ui <- fluidPage(
+  titlePanel("Samanburður á tekjum og fasteignaverði eftir árum"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("sveitarfelag", "Veldu sveitarfélag:", choices = unique(tekjur$Sveitarfelag))
+    ),
+    mainPanel(
+      plotOutput("combinedPlot")
+    )
+  )
+)
+
+# Server
+server <- function(input, output) {
+  output$combinedPlot <- renderPlot({
+    
+    # Filtrum gögnin fyrir valið sveitarfélag
+    # Tekjur gögn
+    tekjur_filtered <- tekjur[tekjur$Sveitarfelag == input$sveitarfelag, ]
+    years <- as.numeric(names(tekjur_filtered)[2:ncol(tekjur_filtered)])
+    tekjur_values <- as.numeric(tekjur_filtered[1, 2:ncol(tekjur_filtered)])
+    
+    # Deila öllum tekjum með 12 (til að fá mánaðarlegar tekjur)
+    tekjur_values <- round(tekjur_values / 12, 2)
+    
+    tekjur_data <- data.frame(Ar = years, Gildi = tekjur_values, Flokkur = "Tekjur")
+    
+    # Fasteignaverð gögn
+    fasteignaverd_filtered <- fasteignaverd %>%
+      filter(SVEITARFELAG == input$sveitarfelag) %>%
+      pivot_longer(cols = -SVEITARFELAG, names_to = "Ar", values_to = "Fasteignaverð") %>%
+      drop_na()
+    
+    # Breyta árunum í númer og síun á ár frá 2010 og eftir
+    fasteignaverd_filtered$Ar <- as.numeric(fasteignaverd_filtered$Ar)
+    fasteignaverd_filtered <- fasteignaverd_filtered %>%
+      filter(Ar >= 2010)  # Síun á árum frá 2010 og eftir
+    
+    fasteignaverd_data <- data.frame(
+      Ar = fasteignaverd_filtered$Ar,
+      Gildi = fasteignaverd_filtered$Fasteignaverð,
+      Flokkur = "Fasteignaverð"
+    )
+    
+    # Mannfjöldagögn
+    mannfjoldi_filtered <- mannfjoldi %>%
+      filter(Sveitafelag == input$sveitarfelag) %>%
+      pivot_longer(cols = -Sveitafelag, names_to = "Ar", values_to = "Mannfjoldi") %>%
+      drop_na()
+    
+    # Breyta árunum í númer og síun á ár frá 2010 og eftir
+    mannfjoldi_filtered$Ar <- as.numeric(mannfjoldi_filtered$Ar)
+    mannfjoldi_filtered <- mannfjoldi_filtered %>%
+      filter(Ar >= 2010)  # Síun á árum frá 2010 og eftir
+    
+    # Deila mannfjölda með 1000 og setja tvo aukastafi
+    mannfjoldi_filtered$Mannfjoldi <- round(mannfjoldi_filtered$Mannfjoldi / 1000, 2)
+    
+    mannfjoldi_data <- data.frame(
+      Ar = mannfjoldi_filtered$Ar,
+      Gildi = mannfjoldi_filtered$Mannfjoldi,
+      Flokkur = "Mannfjöldi"
+    )
+    
+    # Sameina gögnin í einn gagnaramma
+    combined_data <- rbind(tekjur_data, fasteignaverd_data, mannfjoldi_data)
+    
+    # Teikna sameinaða grafið
+    ggplot(combined_data, aes(x = Ar, y = Gildi, color = Flokkur)) +
+      geom_point(size = 3) +
+      geom_line(aes(group = Flokkur), size = 1) +
+      labs(title = paste("Samanburður á tekjum, fasteignaverði og mannfjölda fyrir", input$sveitarfelag),
+           x = "Ár", y = "Gildi") +
+      scale_color_manual(values = c("Tekjur" = "blue", "Fasteignaverð" = "skyblue", "Mannfjöldi" = "green")) +
+      theme_minimal()
+  })
+   # Texta fyrir aðflutta og brottflutta 
+  output$adfluttir <- renderText({ 
+    gildi <- buferlar %>% filter(Sveitafélag == input$sveitarfelag) 
+    adfluttir <- gildi$Alls 
+    paste("Aðfluttir 2022:", adfluttir) 
+  }) 
+
+  output$brottfluttir <- renderText({ 
+    gildi <- buferlar %>% filter(Sveitafélag == input$sveitarfelag) 
+    brottfluttir <- gildi$Brottfluttir 
+    paste("Brottfluttir 2022:", brottfluttir) 
+  }) 
+}
+
+# Keyra Shiny appið
+shinyApp(ui = ui, server = server)
+
+```
+
+
+
+
+
