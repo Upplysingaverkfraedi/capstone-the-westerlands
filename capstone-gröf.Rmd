@@ -1,0 +1,175 @@
+---
+title: "capstone-grof"
+author: "westernlands"
+date: "2024-11-06"
+output: html_document
+---
+
+## R Markdown
+
+```{r}
+library(shiny)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+ui <- fluidPage(
+  titlePanel("Fasteignamarkaðurinn"),
+  tabsetPanel(
+    # Fyrsti flipinn: Samanburður
+    tabPanel(
+      "Samanburður innan sveitarfélaga",
+      sidebarLayout(
+        sidebarPanel(
+          selectInput("sveitarfelag", "Veldu sveitarfélag:", choices = unique(tekjur$Sveitarfelag))
+        ),
+        mainPanel(
+          plotOutput("combinedPlot"),  # Graf fyrir fermetraverð og tekjur
+          plotOutput("mannfjoldiPlot")  # Graf fyrir mannfjölda
+        )
+      )
+    ),
+    # Annar flipinn: Vísitölur
+    tabPanel(
+      "Vísitölur íbúðarverðs",
+      sidebarLayout(
+        sidebarPanel(
+          helpText("Línurit sem sýnir breytingu á vísitölum.")
+        ),
+        mainPanel(
+          plotOutput("linePlot")
+        )
+      )
+    ),
+    # Þriðji flipinn: Scatter plot og reiknivél
+    tabPanel(
+      "Fermetraverð og sparnaður milli sveitarfélaga",
+      sidebarLayout(
+        sidebarPanel(
+          selectizeInput("sveitarfelog_plot", "Veldu sveitarfélög:",
+                         choices = sorted_municipalities, 
+                         selected = sorted_municipalities[1:5], 
+                         multiple = TRUE),
+          radioButtons("plot_type", "Veldu hvaða gögn þú vilt sjá:",
+                       choices = list("Fermetraverð og laun" = "fermetraverð", 
+                                      "Útborgun og laun" = "útborgun")),
+          actionButton("clear_plot", "Afvelja öll sveitarfélög"),
+          br(), hr(),
+          h4("Reiknivél fyrir húsnæðissparnað"),
+          selectizeInput("sveitarfelag_calc", "Veldu sveitarfélag:",
+                         choices = sorted_municipalities, 
+                         selected = sorted_municipalities[1], 
+                         multiple = FALSE),
+          numericInput("savings_rate", "Hlutfall launa í húsnæðissparnað (%):", value = 33, min = 1, max = 100),
+          radioButtons("buyer_type", "Hver er að kaupa?:", choices = list("Einstaklingur" = "single", "Par" = "couple"), selected = "single"),
+          htmlOutput("savings_result")
+        ),
+        mainPanel(
+          plotOutput("scatterPlot") 
+        )
+      )
+    )
+  )
+)
+server <- function(input, output, session) {
+  # Fyrsti flipinn: Samanburður
+   output$combinedPlot <- renderPlot({
+    
+    # Filtrum gögnin fyrir valið sveitarfélag
+     # Tekjur gögn
+    tekjur_filtered <- tekjur[tekjur$Sveitarfelag == input$sveitarfelag, ]
+    years <- as.numeric(names(tekjur_filtered)[2:ncol(tekjur_filtered)])
+    tekjur_values <- as.numeric(tekjur_filtered[1, 2:ncol(tekjur_filtered)])
+    
+    # Deila öllum tekjum með 12 (til að fá mánaðarlegar tekjur)
+    tekjur_values <- round(tekjur_values / 12, 2)
+    
+    tekjur_data <- data.frame(Ar = years, Gildi = tekjur_values, Flokkur = "Tekjur")
+    # Fasteignaverð gögn
+    fasteignaverd_filtered <- fasteignaverd %>%
+      filter(SVEITARFELAG == input$sveitarfelag) %>%
+      pivot_longer(cols = -SVEITARFELAG, names_to = "Ar", values_to = "Fasteignaverð") %>%
+      drop_na()
+
+    # Breyta árunum í númer og síun á ár frá 2010 og eftir
+    fasteignaverd_filtered$Ar <- as.numeric(fasteignaverd_filtered$Ar)
+    fasteignaverd_filtered <- fasteignaverd_filtered %>%
+      filter(Ar >= 2010)  # Síun á árum frá 2010 og eftir
+
+    fasteignaverd_data <- data.frame(
+      Ar = fasteignaverd_filtered$Ar,
+      Gildi = fasteignaverd_filtered$Fasteignaverð,
+      Flokkur = "Fasteignaverð"
+    )
+    
+    # Sameina gögnin í einn gagnaramma
+    combined_data <- rbind(tekjur_data, fasteignaverd_data)
+    
+    # Teikna sameinaða grafið
+    ggplot(combined_data, aes(x = Ar, y = Gildi, color = Flokkur)) +
+      geom_point(size = 3) +
+      geom_line(aes(group = Flokkur), size = 1) +
+      labs(title = paste("Samanburður á tekjum og fasteignaverði fyrir", input$sveitarfelag),
+           x = "Ár", y = "Gildi") +
+      scale_color_manual(values = c("Tekjur" = "blue", "Fasteignaverð" = "skyblue")) +
+      theme_minimal()
+  })
+  
+  # Graf fyrir mannfjölda
+  output$mannfjoldiPlot <- renderPlot({
+    mannfjoldi_filtered <- mannfjoldi %>%
+      filter(Sveitafelag == input$sveitarfelag) %>%
+      pivot_longer(cols = -Sveitafelag, names_to = "Ar", values_to = "Mannfjoldi") %>%
+      drop_na()
+    mannfjoldi_filtered$Ar <- as.numeric(mannfjoldi_filtered$Ar)
+    
+    ggplot(mannfjoldi_filtered, aes(x = Ar, y = Mannfjoldi)) +
+      geom_point(size = 3, color = "green") +
+      geom_line(size = 1, color = "green") +
+      labs(title = paste("Mannfjöldi fyrir", input$sveitarfelag),
+           x = "Ár", y = "Mannfjöldi (í þúsundum)") +
+      theme_minimal()
+  })
+  
+  output$linePlot <- renderPlot({
+    ggplot(data = sameinuð_tafla, aes(x = Ár)) +
+      geom_line(aes(y = Vísitala, color = "Vísitala neysluverðs án húsnæðis"), size = 1) +
+      geom_line(aes(y = Vísitala_fjölb, color = "Vísitala fjölbílishús"), size = 1) +
+      geom_line(aes(y = Visitala_serb, color = "Vísitala sérbíli"), size = 1) +
+      geom_line(aes(y = Visitala_heild, color = "Vísitala íbúðarverðs"), size = 1) +
+      labs(title = "Vísitölur yfir Tíma", x = "Ár", y = "Vísitala") +
+      scale_color_manual(name = "Vísitala", values = c(
+        "Vísitala neysluverðs án húsnæðis" = "red",
+        "Vísitala fjölbílishús" = "green",
+        "Vísitala sérbíli" = "yellow",
+        "Vísitala íbúðarverðs" = "blue"
+      )) +
+      theme_minimal()
+  })
+  # Other outputs remain the same
+  output$scatterPlot <- renderPlot({
+    filtered_data <- subset(scatter_data, Sveitarfelag %in% input$sveitarfelog_plot)
+    if (input$plot_type == "fermetraverð") {
+      filtered_data$Y_Value <- ifelse(filtered_data$Type == "Fermetraverð", filtered_data$Value, filtered_data$Value / 10)
+      y_axis_label <- "Fermetraverð (þús. kr.)"
+    } else {
+      filtered_data$Y_Value <- ifelse(filtered_data$Type == "Fermetraverð", filtered_data$Value * 12, filtered_data$Value)
+      y_axis_label <- "Útborgun (þús. kr.)"
+    }
+    
+    ggplot(filtered_data, aes(x = Sveitarfelag, y = Y_Value, color = Type)) +
+      geom_point(size = 4) +
+      labs(title = "Samanburður á fermetraverði og launum", x = "Sveitarfélag", y = y_axis_label) +
+      theme_minimal()
+  })
+
+  observeEvent(input$clear_plot, {
+    updateSelectizeInput(session, "sveitarfelog_plot", selected = character(0))
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+
+

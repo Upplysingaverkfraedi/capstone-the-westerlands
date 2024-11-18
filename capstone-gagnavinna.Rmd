@@ -1,0 +1,102 @@
+---
+title: "Capstone-gagnavinnsla"
+author: "westernlands"
+date: "2024-11-18"
+output: html_document
+---
+
+```{r}
+# setjið inn ykkar slóð
+path <- "~/Desktop/Capstone-toflur.xlsx"
+fasteignaverd <- read_excel(path, 5, skip = 1)
+mannfjoldi <- read_excel(path, 6, skip = 1)
+tekjur <- read_excel(path, 10, skip = 2)
+dat <- read_excel(path, 7,  skip = 1)
+visitalabygg <- read_excel(path,9)
+visitala<- read_excel(path, 8)
+```
+
+```{r}
+# Fjarlægja "Höfuðborgarsvæðið" og "Landsbyggðin" og fjarlægja "Á4" úr árunum
+mannfjoldi <- mannfjoldi %>%
+  filter(!grepl("Höfuðborgarsvæðið|Landsbyggðin", Sveitafelag)) %>% # Fjarlægja línurnar
+  rename_with(~ str_replace(., "Á4", ""), -Sveitafelag) # Fjarlægja "Á4" úr öllum árkollum
+
+```
+
+```{r}
+##endurstilla víssitöluna þannig að hún byrji í 100 árið 1994
+upphafsgildi <- visitala$Vísitala[1]
+
+# Breyttu vísitölunni þannig að hún byrji í 100
+visitala$Vísitala<- round((visitala$Vísitala / upphafsgildi) * 100 ,2)
+```
+
+```{r}
+#nota REGEX til að flokka út bara þann tíma sem endar á 01
+visitala <- visitala[grepl("01$", visitala$Tími), ]
+```
+
+```{r}
+visitala$Tími <- gsub("M[0-9]{2}", "", visitala$Tími)  # Fjarlægja MXX
+visitala$Tími <- as.numeric(visitala$Tími)  # Breyta í tölulegt gildi
+```
+
+```{r}
+visitalabygg <- visitalabygg %>%
+  filter(Mánuður == 1) # notum bara fyrsta mánuðinn í visitalabygg líka
+```
+
+```{r}
+visitala<- visitala %>%
+  slice(-n())
+```
+
+```{r}
+sameinuð_tafla <- visitalabygg %>%
+  left_join(visitala, by = c("Ár" = "Tími")) #búum til nýja töflu til þess að nota
+```
+
+
+```{r}
+#REGEX fyrir að breyta íslenskum stöfum í enska fyrir dálkaheitin
+new_names <- gsub("ð", "d", names(dat))
+new_names <- gsub("Ð", "D", new_names)
+new_names <- gsub("þ", "th", new_names)
+new_names <- gsub("Þ", "Th", new_names)
+new_names <- gsub("æ", "ae", new_names)
+new_names <- gsub("Æ", "Ae", new_names)
+new_names <- gsub("ö", "o", new_names)
+new_names <- gsub("Ö", "O", new_names)
+new_names <- gsub("á", "a", new_names)
+new_names <- gsub("Á", "A", new_names)
+new_names <- gsub("é", "e", new_names)
+new_names <- gsub("É", "E", new_names)
+new_names <- gsub("í", "i", new_names)
+new_names <- gsub("Í", "I", new_names)
+new_names <- gsub("ó", "o", new_names)
+new_names <- gsub("Ó", "O", new_names)
+new_names <- gsub("ú", "u", new_names)
+new_names <- gsub("Ú", "U", new_names)
+new_names <- gsub("ý", "y", new_names)
+new_names <- gsub("Ý", "Y", new_names)
+names(dat) <- new_names
+```
+
+```{R}
+library(dplyr)
+# REGEX fyrir að taka út NA gildi
+filtered_dat <- dat[
+  grepl("^[0-9]+(\\.[0-9]+)?$", dat$`Fermetraverd eftir sveitafelogum arid 2022`) &
+  grepl("^[0-9]+(\\.[0-9]+)?$", dat$`Midgildi tekna 2023`), 
+]
+# REGEX til að breyta í töluleg gildi 
+filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022` <- as.numeric(filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022`)
+filtered_dat$`Midgildi tekna 2023` <- as.numeric(filtered_dat$`Midgildi tekna 2023`)
+# REGEX til að setja gildin í hækkandi röð
+filtered_dat <- filtered_dat[order(filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022`), ]
+filtered_dat <- filtered_dat %>%
+  arrange(`Fermetraverd eftir sveitafelogum arid 2022`)
+```
+```
+
