@@ -7,7 +7,9 @@ output: html_document
 
 ## R Markdown
 
+
 ```{r}
+
 library(shiny)
 library(ggplot2)
 library(dplyr)
@@ -166,9 +168,40 @@ server <- function(input, output, session) {
   observeEvent(input$clear_plot, {
     updateSelectizeInput(session, "sveitarfelog_plot", selected = character(0))
   })
+  # Reikna út sparnaðartíma fyrir húsnæðisútborgun í reiknivél
+  output$savings_result <- renderUI({
+    # Finna laun og útborgun fyrir valið sveitarfélag í reiknivél 
+    selected_data <- subset(scatter_data, Sveitarfelag == input$sveitarfelag_calc & Type == "Laun")
+    income <- selected_data$Value  # Laun á ársgrundvelli
+    
+    selected_data <- subset(scatter_data, Sveitarfelag == input$sveitarfelag_calc & Type == "Fermetraverð")
+    down_payment <- selected_data$Value * 12  # Útborgun
+    
+    # Reikna sparnað
+    monthly_savings <- (income * (input$savings_rate / 100)) / 12
+    months_needed <- ceiling(down_payment / monthly_savings)
+    
+    # Athuga hvort kaupandi sé einstaklingur eða par og helminga tíma ef par er valið
+    if (input$buyer_type == "couple") {
+      months_needed <- ceiling(months_needed / 2)
+    }
+    # Sýna útreiknaðan sparnaðartíma í árum og mánuðum 
+    if (months_needed >= 12) {
+      years <- floor(months_needed / 12)
+      months <- months_needed %% 12
+      result_text <- paste("Með", input$savings_rate, "% sparnað nærðu útborgun fyrir 80 fm íbúð á", years, "ári og", months, "mánuðum.")
+    } else {
+      result_text <- paste("Með", input$savings_rate, "% sparnað nærðu útborgun á", months_needed, "mánuðum.")
+    }
+    
+    # Breyta útliti
+    tags$div(style = "background-color: #ff9999; padding: 15px; border-radius: 8px; font-weight: bold; font-size: 16px;",
+             result_text)
+  })
 }
 
 shinyApp(ui = ui, server = server)
+
 ```
 
 
