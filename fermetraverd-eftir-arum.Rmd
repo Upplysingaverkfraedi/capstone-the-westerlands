@@ -1,6 +1,6 @@
 ---
 title: "upllýsingaverkfræði"
-author: "jakobina"
+author: "The westernlands"
 date: "2024-10-14"
 output: html_document
 ---
