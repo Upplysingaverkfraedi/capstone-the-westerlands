@@ -14,6 +14,7 @@ library(tidyverse)
 ```
 
 ```{r}
+#þarf að setja kaupskrá inn í R, sem má finna í skýrslunni
 gogn <- mutate(kaupskra_4_, fermetraverd = KAUPVERD / EINFLM)
 ```
 
