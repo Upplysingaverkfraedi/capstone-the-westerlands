@@ -1,0 +1,205 @@
+---
+title: "capstone_grof"
+author: "Þórdís"
+date: "2024-11-06"
+output: html_document
+---
+
+## R Markdown
+
+library(shiny)
+library(ggplot2)
+
+```{R}
+path <- "Capstone-toflur.xlsx"
+dat <- read_excel(path, 7)
+print(dat)
+```
+
+
+```{R}
+#REGEX fyrir að breyta íslenskum stöfum í enska fyrir dálkaheitin
+new_names <- gsub("ð", "d", names(dat))
+new_names <- gsub("Ð", "D", new_names)
+new_names <- gsub("þ", "th", new_names)
+new_names <- gsub("Þ", "Th", new_names)
+new_names <- gsub("æ", "ae", new_names)
+new_names <- gsub("Æ", "Ae", new_names)
+new_names <- gsub("ö", "o", new_names)
+new_names <- gsub("Ö", "O", new_names)
+new_names <- gsub("á", "a", new_names)
+new_names <- gsub("Á", "A", new_names)
+new_names <- gsub("é", "e", new_names)
+new_names <- gsub("É", "E", new_names)
+new_names <- gsub("í", "i", new_names)
+new_names <- gsub("Í", "I", new_names)
+new_names <- gsub("ó", "o", new_names)
+new_names <- gsub("Ó", "O", new_names)
+new_names <- gsub("ú", "u", new_names)
+new_names <- gsub("Ú", "U", new_names)
+new_names <- gsub("ý", "y", new_names)
+new_names <- gsub("Ý", "Y", new_names)
+
+
+names(dat) <- new_names
+```
+
+```{R}
+library(dplyr)
+# REGEX fyrir að taka út NA gildi
+filtered_dat <- dat[
+  grepl("^[0-9]+(\\.[0-9]+)?$", dat$`Fermetraverd eftir sveitafelogum arid 2022`) &
+  grepl("^[0-9]+(\\.[0-9]+)?$", dat$`Midgildi tekna 2023`), 
+]
+
+# REGEX til að breyta í töluleg gildi 
+filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022` <- as.numeric(filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022`)
+filtered_dat$`Midgildi tekna 2023` <- as.numeric(filtered_dat$`Midgildi tekna 2023`)
+
+# REGEX til að setja gildin í hækkandi röð
+filtered_dat <- filtered_dat[order(filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022`), ]
+filtered_dat <- filtered_dat %>%
+  arrange(`Fermetraverd eftir sveitafelogum arid 2022`)
+
+```
+
+```{R}
+library(shiny)
+```
+
+
+```{R}
+# Hlaða inn nauðsynlegum pökkum
+library(shiny)
+library(ggplot2)
+
+# Hlaða inn gögnum 
+scatter_data <- data.frame(
+  Sveitarfelag = rep(filtered_dat$`samsetningartafla`, 2),
+  Type = c(rep("Fermetraverð", nrow(filtered_dat)), rep("Laun", nrow(filtered_dat))),
+  Value = c(filtered_dat$`Fermetraverd eftir sveitafelogum arid 2022`, 
+            filtered_dat$`Midgildi tekna 2023`)
+)
+
+# Raða sveitarfélögum í stafrófsröð
+sorted_municipalities <- sort(unique(scatter_data$Sveitarfelag))
+
+# Búa til Shiny app
+ui <- fluidPage(
+  titlePanel("Samanburður á launum og fasteignaverði eftir sveitarfélögum"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      selectizeInput("sveitarfelog_plot", "Veldu sveitarfélög:", 
+                     choices = sorted_municipalities,  # Notar stafrófsröðuð sveitarfélög
+                     selected = sorted_municipalities[1:5], # Sjálfgefin gildi
+                     multiple = TRUE),
+      radioButtons("plot_type", "Veldu hvaða gögn þú vilt sjá:", 
+                   choices = list("Fermetraverð og laun" = "fermetraverð", 
+                                  "Útborgun og laun" = "útborgun")),
+      actionButton("clear_plot", "Afvelja öll sveitarfélög"),
+      
+      br(), hr(),
+      
+      h4("Reiknivél fyrir húsnæðissparnað"),
+      selectizeInput("sveitarfelag_calc", "Veldu sveitarfélag:", 
+                     choices = sorted_municipalities, # Notar stafrófsröðuð sveitarfélög
+                     selected = sorted_municipalities[1], # Sjálfgefið gildi 
+                     multiple = FALSE,
+                     options = list(placeholder = "Veldu sveitarfélag...")), # Bætir við leitaraðgerð
+      numericInput("savings_rate", "Hlutfall launa í húsnæðissparnað (%):", value = 33, min = 1, max = 100),
+      radioButtons("buyer_type", "Hver er að kaupa?:", choices = list("Einstaklingur" = "single", "Par" = "couple"), selected = "single"),
+      htmlOutput("savings_result")  # Notum htmlOutput í stað textOutput
+    ),
+    mainPanel(
+      plotOutput("scatterPlot")
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  # Þegar smellt er á "Afvelja öll sveitarfélög" í scatter plot flipanum
+  observeEvent(input$clear_plot, {
+    updateSelectizeInput(session, "sveitarfelog_plot", selected = character(0))
+  })
+  
+  output$scatterPlot <- renderPlot({
+    # Sía gögnin til að sýna aðeins valin sveitarfélög fyrir scatter plot
+    filtered_data <- subset(scatter_data, Sveitarfelag %in% input$sveitarfelog_plot)
+    
+    # Setja upp y-ás og gildi í samræmi við valið á radioButtons
+    if (input$plot_type == "fermetraverð") {
+        filtered_data$Y_Value <- ifelse(filtered_data$Type == "Fermetraverð", 
+                                        filtered_data$Value, filtered_data$Value / 10)
+        y_axis_label <- "Fermetraverð (þús. kr.)"
+        y_limits <- c(0, 800)
+        sec_axis_transformation <- ~ . * 10  # Umbreytir aðal Y-ás þannig að auka y-ás sýni rétt fyrir laun
+        legend_labels <- c("Fermetraverð", "Laun")
+    } else {
+        filtered_data$Y_Value <- ifelse(filtered_data$Type == "Fermetraverð", 
+                                        filtered_data$Value * 12, filtered_data$Value)
+        y_axis_label <- "Útborgun (þús. kr.)"
+        y_limits <- c(0, 8000)
+        sec_axis_transformation <- ~ .  # Engin umbreyting fyrir auka y-ás þegar "Útborgun" er valin
+        legend_labels <- c("Útborgun", "Laun")
+    }
+    
+    # Teikna scatter plot fyrir valin sveitarfélög
+    ggplot(filtered_data, aes(x = Sveitarfelag, y = Y_Value, color = Type)) +
+        geom_point(size = 4) +  # Stækka punktana
+        scale_y_continuous(
+            name = y_axis_label,
+            limits = y_limits,
+            sec.axis = sec_axis(sec_axis_transformation, name = "Miðgildi launa (þús. kr.)")
+        ) +
+        labs(x = "Sveitarfélag", title = "Scatter plot: Verð og Laun eftir sveitarfélögum") +
+        scale_color_manual(values = c("Fermetraverð" = "#53c68c", "Laun" = "darkblue"),
+                           labels = legend_labels) +
+        theme_minimal() +
+        theme(
+            axis.text.x = element_text(angle = 45, hjust = 1, size = 10),  # Stækka letur á X-ás
+            axis.text.y = element_text(size = 10),  # Stækka letur á Y-ás
+            legend.text = element_text(size = 10),
+            plot.title = element_text(size = 12)
+        )
+  })
+  
+  # Reikna út sparnaðartíma fyrir húsnæðisútborgun í reiknivél
+  output$savings_result <- renderUI({
+    # Finna laun og útborgun fyrir valið sveitarfélag í reiknivél 
+    selected_data <- subset(scatter_data, Sveitarfelag == input$sveitarfelag_calc & Type == "Laun")
+    income <- selected_data$Value  # Laun á ársgrundvelli
+    
+    selected_data <- subset(scatter_data, Sveitarfelag == input$sveitarfelag_calc & Type == "Fermetraverð")
+    down_payment <- selected_data$Value * 12  # Útborgun
+    
+    # Reikna sparnað
+    monthly_savings <- (income * (input$savings_rate / 100)) / 12
+    months_needed <- ceiling(down_payment / monthly_savings)
+    
+    # Athuga hvort kaupandi sé einstaklingur eða par og helminga tíma ef par er valið
+    if (input$buyer_type == "couple") {
+      months_needed <- ceiling(months_needed / 2)
+    }
+
+    # Sýna útreiknaðan sparnaðartíma í árum og mánuðum 
+    if (months_needed >= 12) {
+      years <- floor(months_needed / 12)
+      months <- months_needed %% 12
+      result_text <- paste("Með", input$savings_rate, "% sparnað nærðu útborgun fyrir 80 fm íbúð á", years, "ári og", months, "mánuðum.")
+    } else {
+      result_text <- paste("Með", input$savings_rate, "% sparnað nærðu útborgun á", months_needed, "mánuðum.")
+    }
+    
+    # Breyta útliti
+    tags$div(style = "background-color: #ff9999; padding: 15px; border-radius: 8px; font-weight: bold; font-size: 16px;",
+             result_text)
+  })
+}
+
+# Keyra Shiny appið
+shinyApp(ui = ui, server = server)
+
+```
+
+
