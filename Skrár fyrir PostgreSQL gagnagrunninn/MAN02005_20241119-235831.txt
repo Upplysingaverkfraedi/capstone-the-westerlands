@@ -1,0 +1,1217 @@
+﻿Sveitarfélag	Aldur	Ár	Kyn	Mannfjöldi eftir sveitarfélagi, kyni og aldri 1. janúar 1998-2024
+Reykjavíkurborg	Alls	2006	Alls	114968
+Reykjavíkurborg	Alls	2007	Alls	116642
+Reykjavíkurborg	Alls	2008	Alls	118827
+Reykjavíkurborg	Alls	2009	Alls	119547
+Reykjavíkurborg	Alls	2010	Alls	118326
+Reykjavíkurborg	Alls	2011	Alls	115394
+Reykjavíkurborg	Alls	2012	Alls	115555
+Reykjavíkurborg	Alls	2013	Alls	116622
+Reykjavíkurborg	Alls	2014	Alls	118192
+Reykjavíkurborg	Alls	2015	Alls	118789
+Reykjavíkurborg	Alls	2016	Alls	119266
+Reykjavíkurborg	Alls	2017	Alls	120513
+Reykjavíkurborg	Alls	2018	Alls	123141
+Reykjavíkurborg	Alls	2019	Alls	125360
+Reykjavíkurborg	Alls	2020	Alls	126549
+Reykjavíkurborg	Alls	2021	Alls	128610
+Reykjavíkurborg	Alls	2022	Alls	130638
+Reykjavíkurborg	Alls	2023	Alls	134298
+Reykjavíkurborg	Alls	2024	Alls	136894
+Kópavogsbær	Alls	2006	Alls	26512
+Kópavogsbær	Alls	2007	Alls	27525
+Kópavogsbær	Alls	2008	Alls	28885
+Kópavogsbær	Alls	2009	Alls	29976
+Kópavogsbær	Alls	2010	Alls	30357
+Kópavogsbær	Alls	2011	Alls	30255
+Kópavogsbær	Alls	2012	Alls	30669
+Kópavogsbær	Alls	2013	Alls	31201
+Kópavogsbær	Alls	2014	Alls	31766
+Kópavogsbær	Alls	2015	Alls	32621
+Kópavogsbær	Alls	2016	Alls	33537
+Kópavogsbær	Alls	2017	Alls	34661
+Kópavogsbær	Alls	2018	Alls	35369
+Kópavogsbær	Alls	2019	Alls	36295
+Kópavogsbær	Alls	2020	Alls	37036
+Kópavogsbær	Alls	2021	Alls	37500
+Kópavogsbær	Alls	2022	Alls	38056
+Kópavogsbær	Alls	2023	Alls	38770
+Kópavogsbær	Alls	2024	Alls	39335
+Seltjarnarnesbær	Alls	2006	Alls	4471
+Seltjarnarnesbær	Alls	2007	Alls	4471
+Seltjarnarnesbær	Alls	2008	Alls	4454
+Seltjarnarnesbær	Alls	2009	Alls	4403
+Seltjarnarnesbær	Alls	2010	Alls	4395
+Seltjarnarnesbær	Alls	2011	Alls	4189
+Seltjarnarnesbær	Alls	2012	Alls	4197
+Seltjarnarnesbær	Alls	2013	Alls	4219
+Seltjarnarnesbær	Alls	2014	Alls	4294
+Seltjarnarnesbær	Alls	2015	Alls	4308
+Seltjarnarnesbær	Alls	2016	Alls	4319
+Seltjarnarnesbær	Alls	2017	Alls	4364
+Seltjarnarnesbær	Alls	2018	Alls	4486
+Seltjarnarnesbær	Alls	2019	Alls	4565
+Seltjarnarnesbær	Alls	2020	Alls	4593
+Seltjarnarnesbær	Alls	2021	Alls	4590
+Seltjarnarnesbær	Alls	2022	Alls	4573
+Seltjarnarnesbær	Alls	2023	Alls	4540
+Seltjarnarnesbær	Alls	2024	Alls	4572
+Garðabær	Alls	2006	Alls	11649
+Garðabær	Alls	2007	Alls	11832
+Garðabær	Alls	2008	Alls	12360
+Garðabær	Alls	2009	Alls	12876
+Garðabær	Alls	2010	Alls	13166
+Garðabær	Alls	2011	Alls	13147
+Garðabær	Alls	2012	Alls	13407
+Garðabær	Alls	2013	Alls	13589
+Garðabær	Alls	2014	Alls	13904
+Garðabær	Alls	2015	Alls	14213
+Garðabær	Alls	2016	Alls	14442
+Garðabær	Alls	2017	Alls	14965
+Garðabær	Alls	2018	Alls	15449
+Garðabær	Alls	2019	Alls	16015
+Garðabær	Alls	2020	Alls	16624
+Garðabær	Alls	2021	Alls	17353
+Garðabær	Alls	2022	Alls	18047
+Garðabær	Alls	2023	Alls	18509
+Garðabær	Alls	2024	Alls	19088
+Hafnarfjarðarkaupstaður	Alls	2006	Alls	22498
+Hafnarfjarðarkaupstaður	Alls	2007	Alls	23751
+Hafnarfjarðarkaupstaður	Alls	2008	Alls	25036
+Hafnarfjarðarkaupstaður	Alls	2009	Alls	25850
+Hafnarfjarðarkaupstaður	Alls	2010	Alls	25913
+Hafnarfjarðarkaupstaður	Alls	2011	Alls	25658
+Hafnarfjarðarkaupstaður	Alls	2012	Alls	26030
+Hafnarfjarðarkaupstaður	Alls	2013	Alls	26393
+Hafnarfjarðarkaupstaður	Alls	2014	Alls	26891
+Hafnarfjarðarkaupstaður	Alls	2015	Alls	27393
+Hafnarfjarðarkaupstaður	Alls	2016	Alls	27696
+Hafnarfjarðarkaupstaður	Alls	2017	Alls	28270
+Hafnarfjarðarkaupstaður	Alls	2018	Alls	28965
+Hafnarfjarðarkaupstaður	Alls	2019	Alls	29227
+Hafnarfjarðarkaupstaður	Alls	2020	Alls	29266
+Hafnarfjarðarkaupstaður	Alls	2021	Alls	29018
+Hafnarfjarðarkaupstaður	Alls	2022	Alls	29047
+Hafnarfjarðarkaupstaður	Alls	2023	Alls	29806
+Hafnarfjarðarkaupstaður	Alls	2024	Alls	30616
+Mosfellsbær	Alls	2006	Alls	7165
+Mosfellsbær	Alls	2007	Alls	7516
+Mosfellsbær	Alls	2008	Alls	8192
+Mosfellsbær	Alls	2009	Alls	8403
+Mosfellsbær	Alls	2010	Alls	8553
+Mosfellsbær	Alls	2011	Alls	8474
+Mosfellsbær	Alls	2012	Alls	8706
+Mosfellsbær	Alls	2013	Alls	8855
+Mosfellsbær	Alls	2014	Alls	8955
+Mosfellsbær	Alls	2015	Alls	9159
+Mosfellsbær	Alls	2016	Alls	9338
+Mosfellsbær	Alls	2017	Alls	9637
+Mosfellsbær	Alls	2018	Alls	10400
+Mosfellsbær	Alls	2019	Alls	11286
+Mosfellsbær	Alls	2020	Alls	11868
+Mosfellsbær	Alls	2021	Alls	12341
+Mosfellsbær	Alls	2022	Alls	12768
+Mosfellsbær	Alls	2023	Alls	13091
+Mosfellsbær	Alls	2024	Alls	13403
+Kjósarhreppur	Alls	2006	Alls	163
+Kjósarhreppur	Alls	2007	Alls	182
+Kjósarhreppur	Alls	2008	Alls	191
+Kjósarhreppur	Alls	2009	Alls	196
+Kjósarhreppur	Alls	2010	Alls	197
+Kjósarhreppur	Alls	2011	Alls	205
+Kjósarhreppur	Alls	2012	Alls	212
+Kjósarhreppur	Alls	2013	Alls	198
+Kjósarhreppur	Alls	2014	Alls	213
+Kjósarhreppur	Alls	2015	Alls	207
+Kjósarhreppur	Alls	2016	Alls	211
+Kjósarhreppur	Alls	2017	Alls	213
+Kjósarhreppur	Alls	2018	Alls	218
+Kjósarhreppur	Alls	2019	Alls	233
+Kjósarhreppur	Alls	2020	Alls	233
+Kjósarhreppur	Alls	2021	Alls	235
+Kjósarhreppur	Alls	2022	Alls	235
+Kjósarhreppur	Alls	2023	Alls	275
+Kjósarhreppur	Alls	2024	Alls	269
+Reykjanesbær	Alls	2006	Alls	11367
+Reykjanesbær	Alls	2007	Alls	11952
+Reykjanesbær	Alls	2008	Alls	13440
+Reykjanesbær	Alls	2009	Alls	14172
+Reykjanesbær	Alls	2010	Alls	14091
+Reykjanesbær	Alls	2011	Alls	13689
+Reykjanesbær	Alls	2012	Alls	13894
+Reykjanesbær	Alls	2013	Alls	14014
+Reykjanesbær	Alls	2014	Alls	14317
+Reykjanesbær	Alls	2015	Alls	14658
+Reykjanesbær	Alls	2016	Alls	14942
+Reykjanesbær	Alls	2017	Alls	16057
+Reykjanesbær	Alls	2018	Alls	17385
+Reykjanesbær	Alls	2019	Alls	18409
+Reykjanesbær	Alls	2020	Alls	18622
+Reykjanesbær	Alls	2021	Alls	18751
+Reykjanesbær	Alls	2022	Alls	19437
+Reykjanesbær	Alls	2023	Alls	20990
+Reykjanesbær	Alls	2024	Alls	21957
+Grindavíkurbær	Alls	2006	Alls	2614
+Grindavíkurbær	Alls	2007	Alls	2701
+Grindavíkurbær	Alls	2008	Alls	2779
+Grindavíkurbær	Alls	2009	Alls	2850
+Grindavíkurbær	Alls	2010	Alls	2837
+Grindavíkurbær	Alls	2011	Alls	2773
+Grindavíkurbær	Alls	2012	Alls	2778
+Grindavíkurbær	Alls	2013	Alls	2829
+Grindavíkurbær	Alls	2014	Alls	2855
+Grindavíkurbær	Alls	2015	Alls	2955
+Grindavíkurbær	Alls	2016	Alls	3082
+Grindavíkurbær	Alls	2017	Alls	3179
+Grindavíkurbær	Alls	2018	Alls	3283
+Grindavíkurbær	Alls	2019	Alls	3375
+Grindavíkurbær	Alls	2020	Alls	3419
+Grindavíkurbær	Alls	2021	Alls	3440
+Grindavíkurbær	Alls	2022	Alls	3479
+Grindavíkurbær	Alls	2023	Alls	3562
+Grindavíkurbær	Alls	2024	Alls	3579
+Sveitarfélagið Vogar	Alls	2006	Alls	1019
+Sveitarfélagið Vogar	Alls	2007	Alls	1112
+Sveitarfélagið Vogar	Alls	2008	Alls	1231
+Sveitarfélagið Vogar	Alls	2009	Alls	1218
+Sveitarfélagið Vogar	Alls	2010	Alls	1206
+Sveitarfélagið Vogar	Alls	2011	Alls	1138
+Sveitarfélagið Vogar	Alls	2012	Alls	1107
+Sveitarfélagið Vogar	Alls	2013	Alls	1095
+Sveitarfélagið Vogar	Alls	2014	Alls	1108
+Sveitarfélagið Vogar	Alls	2015	Alls	1089
+Sveitarfélagið Vogar	Alls	2016	Alls	1133
+Sveitarfélagið Vogar	Alls	2017	Alls	1185
+Sveitarfélagið Vogar	Alls	2018	Alls	1250
+Sveitarfélagið Vogar	Alls	2019	Alls	1250
+Sveitarfélagið Vogar	Alls	2020	Alls	1268
+Sveitarfélagið Vogar	Alls	2021	Alls	1293
+Sveitarfélagið Vogar	Alls	2022	Alls	1310
+Sveitarfélagið Vogar	Alls	2023	Alls	1337
+Sveitarfélagið Vogar	Alls	2024	Alls	1500
+Suðurnesjabær	Alls	2006	Alls	2915
+Suðurnesjabær	Alls	2007	Alls	3147
+Suðurnesjabær	Alls	2008	Alls	3209
+Suðurnesjabær	Alls	2009	Alls	3304
+Suðurnesjabær	Alls	2010	Alls	3225
+Suðurnesjabær	Alls	2011	Alls	3076
+Suðurnesjabær	Alls	2012	Alls	3092
+Suðurnesjabær	Alls	2013	Alls	2960
+Suðurnesjabær	Alls	2014	Alls	2971
+Suðurnesjabær	Alls	2015	Alls	2960
+Suðurnesjabær	Alls	2016	Alls	2959
+Suðurnesjabær	Alls	2017	Alls	3180
+Suðurnesjabær	Alls	2018	Alls	3335
+Suðurnesjabær	Alls	2019	Alls	3429
+Suðurnesjabær	Alls	2020	Alls	3526
+Suðurnesjabær	Alls	2021	Alls	3558
+Suðurnesjabær	Alls	2022	Alls	3648
+Suðurnesjabær	Alls	2023	Alls	3820
+Suðurnesjabær	Alls	2024	Alls	3897
+Akraneskaupstaður	Alls	2006	Alls	5786
+Akraneskaupstaður	Alls	2007	Alls	5976
+Akraneskaupstaður	Alls	2008	Alls	6401
+Akraneskaupstaður	Alls	2009	Alls	6609
+Akraneskaupstaður	Alls	2010	Alls	6549
+Akraneskaupstaður	Alls	2011	Alls	6546
+Akraneskaupstaður	Alls	2012	Alls	6518
+Akraneskaupstaður	Alls	2013	Alls	6552
+Akraneskaupstaður	Alls	2014	Alls	6624
+Akraneskaupstaður	Alls	2015	Alls	6703
+Akraneskaupstaður	Alls	2016	Alls	6841
+Akraneskaupstaður	Alls	2017	Alls	6980
+Akraneskaupstaður	Alls	2018	Alls	7184
+Akraneskaupstaður	Alls	2019	Alls	7308
+Akraneskaupstaður	Alls	2020	Alls	7408
+Akraneskaupstaður	Alls	2021	Alls	7551
+Akraneskaupstaður	Alls	2022	Alls	7693
+Akraneskaupstaður	Alls	2023	Alls	7854
+Akraneskaupstaður	Alls	2024	Alls	8071
+Skorradalshreppur	Alls	2006	Alls	64
+Skorradalshreppur	Alls	2007	Alls	56
+Skorradalshreppur	Alls	2008	Alls	61
+Skorradalshreppur	Alls	2009	Alls	57
+Skorradalshreppur	Alls	2010	Alls	61
+Skorradalshreppur	Alls	2011	Alls	52
+Skorradalshreppur	Alls	2012	Alls	55
+Skorradalshreppur	Alls	2013	Alls	52
+Skorradalshreppur	Alls	2014	Alls	51
+Skorradalshreppur	Alls	2015	Alls	56
+Skorradalshreppur	Alls	2016	Alls	52
+Skorradalshreppur	Alls	2017	Alls	57
+Skorradalshreppur	Alls	2018	Alls	54
+Skorradalshreppur	Alls	2019	Alls	56
+Skorradalshreppur	Alls	2020	Alls	63
+Skorradalshreppur	Alls	2021	Alls	60
+Skorradalshreppur	Alls	2022	Alls	57
+Skorradalshreppur	Alls	2023	Alls	75
+Skorradalshreppur	Alls	2024	Alls	52
+Hvalfjarðarsveit	Alls	2006	Alls	605
+Hvalfjarðarsveit	Alls	2007	Alls	608
+Hvalfjarðarsveit	Alls	2008	Alls	686
+Hvalfjarðarsveit	Alls	2009	Alls	641
+Hvalfjarðarsveit	Alls	2010	Alls	624
+Hvalfjarðarsveit	Alls	2011	Alls	606
+Hvalfjarðarsveit	Alls	2012	Alls	615
+Hvalfjarðarsveit	Alls	2013	Alls	603
+Hvalfjarðarsveit	Alls	2014	Alls	610
+Hvalfjarðarsveit	Alls	2015	Alls	631
+Hvalfjarðarsveit	Alls	2016	Alls	619
+Hvalfjarðarsveit	Alls	2017	Alls	630
+Hvalfjarðarsveit	Alls	2018	Alls	642
+Hvalfjarðarsveit	Alls	2019	Alls	630
+Hvalfjarðarsveit	Alls	2020	Alls	622
+Hvalfjarðarsveit	Alls	2021	Alls	637
+Hvalfjarðarsveit	Alls	2022	Alls	674
+Hvalfjarðarsveit	Alls	2023	Alls	749
+Hvalfjarðarsveit	Alls	2024	Alls	727
+Borgarbyggð	Alls	2006	Alls	3640
+Borgarbyggð	Alls	2007	Alls	3710
+Borgarbyggð	Alls	2008	Alls	3781
+Borgarbyggð	Alls	2009	Alls	3744
+Borgarbyggð	Alls	2010	Alls	3542
+Borgarbyggð	Alls	2011	Alls	3426
+Borgarbyggð	Alls	2012	Alls	3423
+Borgarbyggð	Alls	2013	Alls	3420
+Borgarbyggð	Alls	2014	Alls	3496
+Borgarbyggð	Alls	2015	Alls	3496
+Borgarbyggð	Alls	2016	Alls	3580
+Borgarbyggð	Alls	2017	Alls	3626
+Borgarbyggð	Alls	2018	Alls	3695
+Borgarbyggð	Alls	2019	Alls	3724
+Borgarbyggð	Alls	2020	Alls	3730
+Borgarbyggð	Alls	2021	Alls	3621
+Borgarbyggð	Alls	2022	Alls	3749
+Borgarbyggð	Alls	2023	Alls	3934
+Borgarbyggð	Alls	2024	Alls	4100
+Grundarfjarðarbær	Alls	2006	Alls	975
+Grundarfjarðarbær	Alls	2007	Alls	949
+Grundarfjarðarbær	Alls	2008	Alls	918
+Grundarfjarðarbær	Alls	2009	Alls	925
+Grundarfjarðarbær	Alls	2010	Alls	904
+Grundarfjarðarbær	Alls	2011	Alls	880
+Grundarfjarðarbær	Alls	2012	Alls	890
+Grundarfjarðarbær	Alls	2013	Alls	887
+Grundarfjarðarbær	Alls	2014	Alls	852
+Grundarfjarðarbær	Alls	2015	Alls	876
+Grundarfjarðarbær	Alls	2016	Alls	879
+Grundarfjarðarbær	Alls	2017	Alls	850
+Grundarfjarðarbær	Alls	2018	Alls	853
+Grundarfjarðarbær	Alls	2019	Alls	842
+Grundarfjarðarbær	Alls	2020	Alls	841
+Grundarfjarðarbær	Alls	2021	Alls	833
+Grundarfjarðarbær	Alls	2022	Alls	807
+Grundarfjarðarbær	Alls	2023	Alls	827
+Grundarfjarðarbær	Alls	2024	Alls	821
+Eyja- og Miklaholtshreppur	Alls	2006	Alls	139
+Eyja- og Miklaholtshreppur	Alls	2007	Alls	140
+Eyja- og Miklaholtshreppur	Alls	2008	Alls	128
+Eyja- og Miklaholtshreppur	Alls	2009	Alls	129
+Eyja- og Miklaholtshreppur	Alls	2010	Alls	139
+Eyja- og Miklaholtshreppur	Alls	2011	Alls	132
+Eyja- og Miklaholtshreppur	Alls	2012	Alls	130
+Eyja- og Miklaholtshreppur	Alls	2013	Alls	153
+Eyja- og Miklaholtshreppur	Alls	2014	Alls	146
+Eyja- og Miklaholtshreppur	Alls	2015	Alls	140
+Eyja- og Miklaholtshreppur	Alls	2016	Alls	133
+Eyja- og Miklaholtshreppur	Alls	2017	Alls	120
+Eyja- og Miklaholtshreppur	Alls	2018	Alls	124
+Eyja- og Miklaholtshreppur	Alls	2019	Alls	117
+Eyja- og Miklaholtshreppur	Alls	2020	Alls	123
+Eyja- og Miklaholtshreppur	Alls	2021	Alls	113
+Eyja- og Miklaholtshreppur	Alls	2022	Alls	100
+Eyja- og Miklaholtshreppur	Alls	2023	Alls	112
+Eyja- og Miklaholtshreppur	Alls	2024	Alls	123
+Snæfellsbær	Alls	2006	Alls	1731
+Snæfellsbær	Alls	2007	Alls	1709
+Snæfellsbær	Alls	2008	Alls	1716
+Snæfellsbær	Alls	2009	Alls	1717
+Snæfellsbær	Alls	2010	Alls	1702
+Snæfellsbær	Alls	2011	Alls	1702
+Snæfellsbær	Alls	2012	Alls	1713
+Snæfellsbær	Alls	2013	Alls	1706
+Snæfellsbær	Alls	2014	Alls	1676
+Snæfellsbær	Alls	2015	Alls	1654
+Snæfellsbær	Alls	2016	Alls	1626
+Snæfellsbær	Alls	2017	Alls	1611
+Snæfellsbær	Alls	2018	Alls	1631
+Snæfellsbær	Alls	2019	Alls	1646
+Snæfellsbær	Alls	2020	Alls	1628
+Snæfellsbær	Alls	2021	Alls	1627
+Snæfellsbær	Alls	2022	Alls	1607
+Snæfellsbær	Alls	2023	Alls	1632
+Snæfellsbær	Alls	2024	Alls	1617
+Sveitarfélagið Stykkishólmur	Alls	2006	Alls	1220
+Sveitarfélagið Stykkishólmur	Alls	2007	Alls	1200
+Sveitarfélagið Stykkishólmur	Alls	2008	Alls	1169
+Sveitarfélagið Stykkishólmur	Alls	2009	Alls	1171
+Sveitarfélagið Stykkishólmur	Alls	2010	Alls	1155
+Sveitarfélagið Stykkishólmur	Alls	2011	Alls	1141
+Sveitarfélagið Stykkishólmur	Alls	2012	Alls	1150
+Sveitarfélagið Stykkishólmur	Alls	2013	Alls	1155
+Sveitarfélagið Stykkishólmur	Alls	2014	Alls	1134
+Sveitarfélagið Stykkishólmur	Alls	2015	Alls	1151
+Sveitarfélagið Stykkishólmur	Alls	2016	Alls	1158
+Sveitarfélagið Stykkishólmur	Alls	2017	Alls	1200
+Sveitarfélagið Stykkishólmur	Alls	2018	Alls	1215
+Sveitarfélagið Stykkishólmur	Alls	2019	Alls	1243
+Sveitarfélagið Stykkishólmur	Alls	2020	Alls	1242
+Sveitarfélagið Stykkishólmur	Alls	2021	Alls	1228
+Sveitarfélagið Stykkishólmur	Alls	2022	Alls	1252
+Sveitarfélagið Stykkishólmur	Alls	2023	Alls	1264
+Sveitarfélagið Stykkishólmur	Alls	2024	Alls	1266
+Dalabyggð	Alls	2006	Alls	717
+Dalabyggð	Alls	2007	Alls	681
+Dalabyggð	Alls	2008	Alls	709
+Dalabyggð	Alls	2009	Alls	714
+Dalabyggð	Alls	2010	Alls	694
+Dalabyggð	Alls	2011	Alls	679
+Dalabyggð	Alls	2012	Alls	682
+Dalabyggð	Alls	2013	Alls	661
+Dalabyggð	Alls	2014	Alls	669
+Dalabyggð	Alls	2015	Alls	677
+Dalabyggð	Alls	2016	Alls	676
+Dalabyggð	Alls	2017	Alls	666
+Dalabyggð	Alls	2018	Alls	657
+Dalabyggð	Alls	2019	Alls	663
+Dalabyggð	Alls	2020	Alls	624
+Dalabyggð	Alls	2021	Alls	607
+Dalabyggð	Alls	2022	Alls	652
+Dalabyggð	Alls	2023	Alls	637
+Dalabyggð	Alls	2024	Alls	642
+Bolungarvíkurkaupstaður	Alls	2006	Alls	920
+Bolungarvíkurkaupstaður	Alls	2007	Alls	902
+Bolungarvíkurkaupstaður	Alls	2008	Alls	908
+Bolungarvíkurkaupstaður	Alls	2009	Alls	966
+Bolungarvíkurkaupstaður	Alls	2010	Alls	970
+Bolungarvíkurkaupstaður	Alls	2011	Alls	877
+Bolungarvíkurkaupstaður	Alls	2012	Alls	874
+Bolungarvíkurkaupstaður	Alls	2013	Alls	906
+Bolungarvíkurkaupstaður	Alls	2014	Alls	934
+Bolungarvíkurkaupstaður	Alls	2015	Alls	903
+Bolungarvíkurkaupstaður	Alls	2016	Alls	889
+Bolungarvíkurkaupstaður	Alls	2017	Alls	891
+Bolungarvíkurkaupstaður	Alls	2018	Alls	929
+Bolungarvíkurkaupstaður	Alls	2019	Alls	939
+Bolungarvíkurkaupstaður	Alls	2020	Alls	928
+Bolungarvíkurkaupstaður	Alls	2021	Alls	938
+Bolungarvíkurkaupstaður	Alls	2022	Alls	937
+Bolungarvíkurkaupstaður	Alls	2023	Alls	973
+Bolungarvíkurkaupstaður	Alls	2024	Alls	989
+Ísafjarðarbær	Alls	2006	Alls	4108
+Ísafjarðarbær	Alls	2007	Alls	4090
+Ísafjarðarbær	Alls	2008	Alls	3976
+Ísafjarðarbær	Alls	2009	Alls	3972
+Ísafjarðarbær	Alls	2010	Alls	3899
+Ísafjarðarbær	Alls	2011	Alls	3795
+Ísafjarðarbær	Alls	2012	Alls	3708
+Ísafjarðarbær	Alls	2013	Alls	3685
+Ísafjarðarbær	Alls	2014	Alls	3570
+Ísafjarðarbær	Alls	2015	Alls	3550
+Ísafjarðarbær	Alls	2016	Alls	3552
+Ísafjarðarbær	Alls	2017	Alls	3556
+Ísafjarðarbær	Alls	2018	Alls	3645
+Ísafjarðarbær	Alls	2019	Alls	3722
+Ísafjarðarbær	Alls	2020	Alls	3712
+Ísafjarðarbær	Alls	2021	Alls	3670
+Ísafjarðarbær	Alls	2022	Alls	3716
+Ísafjarðarbær	Alls	2023	Alls	3730
+Ísafjarðarbær	Alls	2024	Alls	3797
+Reykhólahreppur	Alls	2006	Alls	251
+Reykhólahreppur	Alls	2007	Alls	255
+Reykhólahreppur	Alls	2008	Alls	267
+Reykhólahreppur	Alls	2009	Alls	280
+Reykhólahreppur	Alls	2010	Alls	291
+Reykhólahreppur	Alls	2011	Alls	271
+Reykhólahreppur	Alls	2012	Alls	261
+Reykhólahreppur	Alls	2013	Alls	273
+Reykhólahreppur	Alls	2014	Alls	261
+Reykhólahreppur	Alls	2015	Alls	258
+Reykhólahreppur	Alls	2016	Alls	258
+Reykhólahreppur	Alls	2017	Alls	279
+Reykhólahreppur	Alls	2018	Alls	272
+Reykhólahreppur	Alls	2019	Alls	255
+Reykhólahreppur	Alls	2020	Alls	258
+Reykhólahreppur	Alls	2021	Alls	231
+Reykhólahreppur	Alls	2022	Alls	228
+Reykhólahreppur	Alls	2023	Alls	239
+Reykhólahreppur	Alls	2024	Alls	236
+Tálknafjarðarhreppur	Alls	2006	Alls	302
+Tálknafjarðarhreppur	Alls	2007	Alls	293
+Tálknafjarðarhreppur	Alls	2008	Alls	295
+Tálknafjarðarhreppur	Alls	2009	Alls	308
+Tálknafjarðarhreppur	Alls	2010	Alls	299
+Tálknafjarðarhreppur	Alls	2011	Alls	295
+Tálknafjarðarhreppur	Alls	2012	Alls	276
+Tálknafjarðarhreppur	Alls	2013	Alls	288
+Tálknafjarðarhreppur	Alls	2014	Alls	296
+Tálknafjarðarhreppur	Alls	2015	Alls	303
+Tálknafjarðarhreppur	Alls	2016	Alls	259
+Tálknafjarðarhreppur	Alls	2017	Alls	231
+Tálknafjarðarhreppur	Alls	2018	Alls	237
+Tálknafjarðarhreppur	Alls	2019	Alls	242
+Tálknafjarðarhreppur	Alls	2020	Alls	233
+Tálknafjarðarhreppur	Alls	2021	Alls	251
+Tálknafjarðarhreppur	Alls	2022	Alls	243
+Tálknafjarðarhreppur	Alls	2023	Alls	258
+Tálknafjarðarhreppur	Alls	2024	Alls	250
+Vesturbyggð	Alls	2006	Alls	964
+Vesturbyggð	Alls	2007	Alls	939
+Vesturbyggð	Alls	2008	Alls	928
+Vesturbyggð	Alls	2009	Alls	900
+Vesturbyggð	Alls	2010	Alls	935
+Vesturbyggð	Alls	2011	Alls	884
+Vesturbyggð	Alls	2012	Alls	892
+Vesturbyggð	Alls	2013	Alls	926
+Vesturbyggð	Alls	2014	Alls	925
+Vesturbyggð	Alls	2015	Alls	983
+Vesturbyggð	Alls	2016	Alls	993
+Vesturbyggð	Alls	2017	Alls	1010
+Vesturbyggð	Alls	2018	Alls	1006
+Vesturbyggð	Alls	2019	Alls	982
+Vesturbyggð	Alls	2020	Alls	1001
+Vesturbyggð	Alls	2021	Alls	1026
+Vesturbyggð	Alls	2022	Alls	1080
+Vesturbyggð	Alls	2023	Alls	1104
+Vesturbyggð	Alls	2024	Alls	1106
+Súðavíkurhreppur	Alls	2006	Alls	240
+Súðavíkurhreppur	Alls	2007	Alls	225
+Súðavíkurhreppur	Alls	2008	Alls	214
+Súðavíkurhreppur	Alls	2009	Alls	212
+Súðavíkurhreppur	Alls	2010	Alls	202
+Súðavíkurhreppur	Alls	2011	Alls	191
+Súðavíkurhreppur	Alls	2012	Alls	179
+Súðavíkurhreppur	Alls	2013	Alls	176
+Súðavíkurhreppur	Alls	2014	Alls	199
+Súðavíkurhreppur	Alls	2015	Alls	202
+Súðavíkurhreppur	Alls	2016	Alls	178
+Súðavíkurhreppur	Alls	2017	Alls	180
+Súðavíkurhreppur	Alls	2018	Alls	187
+Súðavíkurhreppur	Alls	2019	Alls	197
+Súðavíkurhreppur	Alls	2020	Alls	199
+Súðavíkurhreppur	Alls	2021	Alls	197
+Súðavíkurhreppur	Alls	2022	Alls	203
+Súðavíkurhreppur	Alls	2023	Alls	223
+Súðavíkurhreppur	Alls	2024	Alls	219
+Árneshreppur	Alls	2006	Alls	50
+Árneshreppur	Alls	2007	Alls	49
+Árneshreppur	Alls	2008	Alls	48
+Árneshreppur	Alls	2009	Alls	49
+Árneshreppur	Alls	2010	Alls	50
+Árneshreppur	Alls	2011	Alls	52
+Árneshreppur	Alls	2012	Alls	52
+Árneshreppur	Alls	2013	Alls	54
+Árneshreppur	Alls	2014	Alls	52
+Árneshreppur	Alls	2015	Alls	54
+Árneshreppur	Alls	2016	Alls	55
+Árneshreppur	Alls	2017	Alls	46
+Árneshreppur	Alls	2018	Alls	42
+Árneshreppur	Alls	2019	Alls	40
+Árneshreppur	Alls	2020	Alls	43
+Árneshreppur	Alls	2021	Alls	41
+Árneshreppur	Alls	2022	Alls	40
+Árneshreppur	Alls	2023	Alls	47
+Árneshreppur	Alls	2024	Alls	53
+Kaldrananeshreppur	Alls	2006	Alls	112
+Kaldrananeshreppur	Alls	2007	Alls	101
+Kaldrananeshreppur	Alls	2008	Alls	103
+Kaldrananeshreppur	Alls	2009	Alls	110
+Kaldrananeshreppur	Alls	2010	Alls	112
+Kaldrananeshreppur	Alls	2011	Alls	104
+Kaldrananeshreppur	Alls	2012	Alls	101
+Kaldrananeshreppur	Alls	2013	Alls	100
+Kaldrananeshreppur	Alls	2014	Alls	104
+Kaldrananeshreppur	Alls	2015	Alls	111
+Kaldrananeshreppur	Alls	2016	Alls	103
+Kaldrananeshreppur	Alls	2017	Alls	106
+Kaldrananeshreppur	Alls	2018	Alls	109
+Kaldrananeshreppur	Alls	2019	Alls	102
+Kaldrananeshreppur	Alls	2020	Alls	103
+Kaldrananeshreppur	Alls	2021	Alls	108
+Kaldrananeshreppur	Alls	2022	Alls	106
+Kaldrananeshreppur	Alls	2023	Alls	113
+Kaldrananeshreppur	Alls	2024	Alls	104
+Strandabyggð	Alls	2006	Alls	499
+Strandabyggð	Alls	2007	Alls	507
+Strandabyggð	Alls	2008	Alls	499
+Strandabyggð	Alls	2009	Alls	490
+Strandabyggð	Alls	2010	Alls	508
+Strandabyggð	Alls	2011	Alls	495
+Strandabyggð	Alls	2012	Alls	511
+Strandabyggð	Alls	2013	Alls	511
+Strandabyggð	Alls	2014	Alls	503
+Strandabyggð	Alls	2015	Alls	468
+Strandabyggð	Alls	2016	Alls	459
+Strandabyggð	Alls	2017	Alls	461
+Strandabyggð	Alls	2018	Alls	443
+Strandabyggð	Alls	2019	Alls	434
+Strandabyggð	Alls	2020	Alls	436
+Strandabyggð	Alls	2021	Alls	418
+Strandabyggð	Alls	2022	Alls	406
+Strandabyggð	Alls	2023	Alls	412
+Strandabyggð	Alls	2024	Alls	414
+Húnaþing vestra	Alls	2006	Alls	1279
+Húnaþing vestra	Alls	2007	Alls	1267
+Húnaþing vestra	Alls	2008	Alls	1253
+Húnaþing vestra	Alls	2009	Alls	1245
+Húnaþing vestra	Alls	2010	Alls	1212
+Húnaþing vestra	Alls	2011	Alls	1199
+Húnaþing vestra	Alls	2012	Alls	1169
+Húnaþing vestra	Alls	2013	Alls	1161
+Húnaþing vestra	Alls	2014	Alls	1158
+Húnaþing vestra	Alls	2015	Alls	1157
+Húnaþing vestra	Alls	2016	Alls	1139
+Húnaþing vestra	Alls	2017	Alls	1157
+Húnaþing vestra	Alls	2018	Alls	1181
+Húnaþing vestra	Alls	2019	Alls	1168
+Húnaþing vestra	Alls	2020	Alls	1191
+Húnaþing vestra	Alls	2021	Alls	1191
+Húnaþing vestra	Alls	2022	Alls	1191
+Húnaþing vestra	Alls	2023	Alls	1217
+Húnaþing vestra	Alls	2024	Alls	1212
+Sveitarfélagið Skagaströnd	Alls	2006	Alls	545
+Sveitarfélagið Skagaströnd	Alls	2007	Alls	532
+Sveitarfélagið Skagaströnd	Alls	2008	Alls	530
+Sveitarfélagið Skagaströnd	Alls	2009	Alls	521
+Sveitarfélagið Skagaströnd	Alls	2010	Alls	519
+Sveitarfélagið Skagaströnd	Alls	2011	Alls	527
+Sveitarfélagið Skagaströnd	Alls	2012	Alls	500
+Sveitarfélagið Skagaströnd	Alls	2013	Alls	503
+Sveitarfélagið Skagaströnd	Alls	2014	Alls	494
+Sveitarfélagið Skagaströnd	Alls	2015	Alls	485
+Sveitarfélagið Skagaströnd	Alls	2016	Alls	487
+Sveitarfélagið Skagaströnd	Alls	2017	Alls	476
+Sveitarfélagið Skagaströnd	Alls	2018	Alls	478
+Sveitarfélagið Skagaströnd	Alls	2019	Alls	447
+Sveitarfélagið Skagaströnd	Alls	2020	Alls	465
+Sveitarfélagið Skagaströnd	Alls	2021	Alls	460
+Sveitarfélagið Skagaströnd	Alls	2022	Alls	475
+Sveitarfélagið Skagaströnd	Alls	2023	Alls	474
+Sveitarfélagið Skagaströnd	Alls	2024	Alls	457
+Skagabyggð	Alls	2006	Alls	99
+Skagabyggð	Alls	2007	Alls	96
+Skagabyggð	Alls	2008	Alls	105
+Skagabyggð	Alls	2009	Alls	102
+Skagabyggð	Alls	2010	Alls	106
+Skagabyggð	Alls	2011	Alls	102
+Skagabyggð	Alls	2012	Alls	100
+Skagabyggð	Alls	2013	Alls	98
+Skagabyggð	Alls	2014	Alls	96
+Skagabyggð	Alls	2015	Alls	99
+Skagabyggð	Alls	2016	Alls	109
+Skagabyggð	Alls	2017	Alls	101
+Skagabyggð	Alls	2018	Alls	93
+Skagabyggð	Alls	2019	Alls	90
+Skagabyggð	Alls	2020	Alls	90
+Skagabyggð	Alls	2021	Alls	90
+Skagabyggð	Alls	2022	Alls	90
+Skagabyggð	Alls	2023	Alls	89
+Skagabyggð	Alls	2024	Alls	86
+Húnabyggð	Alls	2006	Alls	1369
+Húnabyggð	Alls	2007	Alls	1357
+Húnabyggð	Alls	2008	Alls	1353
+Húnabyggð	Alls	2009	Alls	1335
+Húnabyggð	Alls	2010	Alls	1313
+Húnabyggð	Alls	2011	Alls	1291
+Húnabyggð	Alls	2012	Alls	1261
+Húnabyggð	Alls	2013	Alls	1263
+Húnabyggð	Alls	2014	Alls	1274
+Húnabyggð	Alls	2015	Alls	1263
+Húnabyggð	Alls	2016	Alls	1251
+Húnabyggð	Alls	2017	Alls	1264
+Húnabyggð	Alls	2018	Alls	1270
+Húnabyggð	Alls	2019	Alls	1299
+Húnabyggð	Alls	2020	Alls	1289
+Húnabyggð	Alls	2021	Alls	1301
+Húnabyggð	Alls	2022	Alls	1285
+Húnabyggð	Alls	2023	Alls	1261
+Húnabyggð	Alls	2024	Alls	1263
+Skagafjörður	Alls	2006	Alls	4331
+Skagafjörður	Alls	2007	Alls	4305
+Skagafjörður	Alls	2008	Alls	4241
+Skagafjörður	Alls	2009	Alls	4296
+Skagafjörður	Alls	2010	Alls	4340
+Skagafjörður	Alls	2011	Alls	4241
+Skagafjörður	Alls	2012	Alls	4152
+Skagafjörður	Alls	2013	Alls	4161
+Skagafjörður	Alls	2014	Alls	4133
+Skagafjörður	Alls	2015	Alls	4066
+Skagafjörður	Alls	2016	Alls	4057
+Skagafjörður	Alls	2017	Alls	4088
+Skagafjörður	Alls	2018	Alls	4106
+Skagafjörður	Alls	2019	Alls	4148
+Skagafjörður	Alls	2020	Alls	4175
+Skagafjörður	Alls	2021	Alls	4212
+Skagafjörður	Alls	2022	Alls	4200
+Skagafjörður	Alls	2023	Alls	4206
+Skagafjörður	Alls	2024	Alls	4276
+Akureyrarbær	Alls	2006	Alls	16859
+Akureyrarbær	Alls	2007	Alls	16921
+Akureyrarbær	Alls	2008	Alls	17423
+Akureyrarbær	Alls	2009	Alls	17633
+Akureyrarbær	Alls	2010	Alls	17573
+Akureyrarbær	Alls	2011	Alls	17625
+Akureyrarbær	Alls	2012	Alls	17725
+Akureyrarbær	Alls	2013	Alls	17820
+Akureyrarbær	Alls	2014	Alls	17957
+Akureyrarbær	Alls	2015	Alls	18030
+Akureyrarbær	Alls	2016	Alls	18118
+Akureyrarbær	Alls	2017	Alls	18321
+Akureyrarbær	Alls	2018	Alls	18624
+Akureyrarbær	Alls	2019	Alls	18723
+Akureyrarbær	Alls	2020	Alls	18761
+Akureyrarbær	Alls	2021	Alls	18935
+Akureyrarbær	Alls	2022	Alls	19330
+Akureyrarbær	Alls	2023	Alls	19559
+Akureyrarbær	Alls	2024	Alls	19812
+Norðurþing	Alls	2006	Alls	3027
+Norðurþing	Alls	2007	Alls	3011
+Norðurþing	Alls	2008	Alls	2983
+Norðurþing	Alls	2009	Alls	3001
+Norðurþing	Alls	2010	Alls	2926
+Norðurþing	Alls	2011	Alls	2880
+Norðurþing	Alls	2012	Alls	2865
+Norðurþing	Alls	2013	Alls	2837
+Norðurþing	Alls	2014	Alls	2796
+Norðurþing	Alls	2015	Alls	2768
+Norðurþing	Alls	2016	Alls	2784
+Norðurþing	Alls	2017	Alls	2923
+Norðurþing	Alls	2018	Alls	3159
+Norðurþing	Alls	2019	Alls	2930
+Norðurþing	Alls	2020	Alls	2997
+Norðurþing	Alls	2021	Alls	2954
+Norðurþing	Alls	2022	Alls	2957
+Norðurþing	Alls	2023	Alls	3063
+Norðurþing	Alls	2024	Alls	3081
+Fjallabyggð	Alls	2006	Alls	2296
+Fjallabyggð	Alls	2007	Alls	2280
+Fjallabyggð	Alls	2008	Alls	2195
+Fjallabyggð	Alls	2009	Alls	2127
+Fjallabyggð	Alls	2010	Alls	2066
+Fjallabyggð	Alls	2011	Alls	2015
+Fjallabyggð	Alls	2012	Alls	2014
+Fjallabyggð	Alls	2013	Alls	2001
+Fjallabyggð	Alls	2014	Alls	1997
+Fjallabyggð	Alls	2015	Alls	2021
+Fjallabyggð	Alls	2016	Alls	2011
+Fjallabyggð	Alls	2017	Alls	2016
+Fjallabyggð	Alls	2018	Alls	1998
+Fjallabyggð	Alls	2019	Alls	1983
+Fjallabyggð	Alls	2020	Alls	1986
+Fjallabyggð	Alls	2021	Alls	1948
+Fjallabyggð	Alls	2022	Alls	1942
+Fjallabyggð	Alls	2023	Alls	1948
+Fjallabyggð	Alls	2024	Alls	1973
+Dalvíkurbyggð	Alls	2006	Alls	1924
+Dalvíkurbyggð	Alls	2007	Alls	1958
+Dalvíkurbyggð	Alls	2008	Alls	1959
+Dalvíkurbyggð	Alls	2009	Alls	1947
+Dalvíkurbyggð	Alls	2010	Alls	1949
+Dalvíkurbyggð	Alls	2011	Alls	1940
+Dalvíkurbyggð	Alls	2012	Alls	1891
+Dalvíkurbyggð	Alls	2013	Alls	1859
+Dalvíkurbyggð	Alls	2014	Alls	1856
+Dalvíkurbyggð	Alls	2015	Alls	1849
+Dalvíkurbyggð	Alls	2016	Alls	1829
+Dalvíkurbyggð	Alls	2017	Alls	1815
+Dalvíkurbyggð	Alls	2018	Alls	1848
+Dalvíkurbyggð	Alls	2019	Alls	1878
+Dalvíkurbyggð	Alls	2020	Alls	1870
+Dalvíkurbyggð	Alls	2021	Alls	1824
+Dalvíkurbyggð	Alls	2022	Alls	1828
+Dalvíkurbyggð	Alls	2023	Alls	1874
+Dalvíkurbyggð	Alls	2024	Alls	1866
+Eyjafjarðarsveit	Alls	2006	Alls	981
+Eyjafjarðarsveit	Alls	2007	Alls	1004
+Eyjafjarðarsveit	Alls	2008	Alls	1009
+Eyjafjarðarsveit	Alls	2009	Alls	1039
+Eyjafjarðarsveit	Alls	2010	Alls	1025
+Eyjafjarðarsveit	Alls	2011	Alls	1007
+Eyjafjarðarsveit	Alls	2012	Alls	1015
+Eyjafjarðarsveit	Alls	2013	Alls	1003
+Eyjafjarðarsveit	Alls	2014	Alls	1008
+Eyjafjarðarsveit	Alls	2015	Alls	1016
+Eyjafjarðarsveit	Alls	2016	Alls	1016
+Eyjafjarðarsveit	Alls	2017	Alls	1000
+Eyjafjarðarsveit	Alls	2018	Alls	1003
+Eyjafjarðarsveit	Alls	2019	Alls	1031
+Eyjafjarðarsveit	Alls	2020	Alls	1060
+Eyjafjarðarsveit	Alls	2021	Alls	1081
+Eyjafjarðarsveit	Alls	2022	Alls	1101
+Eyjafjarðarsveit	Alls	2023	Alls	1149
+Eyjafjarðarsveit	Alls	2024	Alls	1162
+Hörgársveit	Alls	2006	Alls	571
+Hörgársveit	Alls	2007	Alls	587
+Hörgársveit	Alls	2008	Alls	589
+Hörgársveit	Alls	2009	Alls	590
+Hörgársveit	Alls	2010	Alls	607
+Hörgársveit	Alls	2011	Alls	593
+Hörgársveit	Alls	2012	Alls	576
+Hörgársveit	Alls	2013	Alls	557
+Hörgársveit	Alls	2014	Alls	550
+Hörgársveit	Alls	2015	Alls	564
+Hörgársveit	Alls	2016	Alls	547
+Hörgársveit	Alls	2017	Alls	563
+Hörgársveit	Alls	2018	Alls	569
+Hörgársveit	Alls	2019	Alls	606
+Hörgársveit	Alls	2020	Alls	611
+Hörgársveit	Alls	2021	Alls	642
+Hörgársveit	Alls	2022	Alls	692
+Hörgársveit	Alls	2023	Alls	766
+Hörgársveit	Alls	2024	Alls	791
+Svalbarðsstrandarhreppur	Alls	2006	Alls	383
+Svalbarðsstrandarhreppur	Alls	2007	Alls	381
+Svalbarðsstrandarhreppur	Alls	2008	Alls	390
+Svalbarðsstrandarhreppur	Alls	2009	Alls	396
+Svalbarðsstrandarhreppur	Alls	2010	Alls	413
+Svalbarðsstrandarhreppur	Alls	2011	Alls	390
+Svalbarðsstrandarhreppur	Alls	2012	Alls	381
+Svalbarðsstrandarhreppur	Alls	2013	Alls	405
+Svalbarðsstrandarhreppur	Alls	2014	Alls	379
+Svalbarðsstrandarhreppur	Alls	2015	Alls	407
+Svalbarðsstrandarhreppur	Alls	2016	Alls	423
+Svalbarðsstrandarhreppur	Alls	2017	Alls	438
+Svalbarðsstrandarhreppur	Alls	2018	Alls	473
+Svalbarðsstrandarhreppur	Alls	2019	Alls	470
+Svalbarðsstrandarhreppur	Alls	2020	Alls	440
+Svalbarðsstrandarhreppur	Alls	2021	Alls	429
+Svalbarðsstrandarhreppur	Alls	2022	Alls	440
+Svalbarðsstrandarhreppur	Alls	2023	Alls	475
+Svalbarðsstrandarhreppur	Alls	2024	Alls	491
+Grýtubakkahreppur	Alls	2006	Alls	367
+Grýtubakkahreppur	Alls	2007	Alls	369
+Grýtubakkahreppur	Alls	2008	Alls	354
+Grýtubakkahreppur	Alls	2009	Alls	338
+Grýtubakkahreppur	Alls	2010	Alls	337
+Grýtubakkahreppur	Alls	2011	Alls	333
+Grýtubakkahreppur	Alls	2012	Alls	343
+Grýtubakkahreppur	Alls	2013	Alls	351
+Grýtubakkahreppur	Alls	2014	Alls	348
+Grýtubakkahreppur	Alls	2015	Alls	362
+Grýtubakkahreppur	Alls	2016	Alls	351
+Grýtubakkahreppur	Alls	2017	Alls	351
+Grýtubakkahreppur	Alls	2018	Alls	371
+Grýtubakkahreppur	Alls	2019	Alls	369
+Grýtubakkahreppur	Alls	2020	Alls	366
+Grýtubakkahreppur	Alls	2021	Alls	365
+Grýtubakkahreppur	Alls	2022	Alls	362
+Grýtubakkahreppur	Alls	2023	Alls	373
+Grýtubakkahreppur	Alls	2024	Alls	396
+Tjörneshreppur	Alls	2006	Alls	63
+Tjörneshreppur	Alls	2007	Alls	60
+Tjörneshreppur	Alls	2008	Alls	60
+Tjörneshreppur	Alls	2009	Alls	58
+Tjörneshreppur	Alls	2010	Alls	56
+Tjörneshreppur	Alls	2011	Alls	57
+Tjörneshreppur	Alls	2012	Alls	55
+Tjörneshreppur	Alls	2013	Alls	55
+Tjörneshreppur	Alls	2014	Alls	55
+Tjörneshreppur	Alls	2015	Alls	59
+Tjörneshreppur	Alls	2016	Alls	60
+Tjörneshreppur	Alls	2017	Alls	57
+Tjörneshreppur	Alls	2018	Alls	58
+Tjörneshreppur	Alls	2019	Alls	53
+Tjörneshreppur	Alls	2020	Alls	53
+Tjörneshreppur	Alls	2021	Alls	56
+Tjörneshreppur	Alls	2022	Alls	61
+Tjörneshreppur	Alls	2023	Alls	56
+Tjörneshreppur	Alls	2024	Alls	52
+Þingeyjarsveit	Alls	2006	Alls	1372
+Þingeyjarsveit	Alls	2007	Alls	1364
+Þingeyjarsveit	Alls	2008	Alls	1344
+Þingeyjarsveit	Alls	2009	Alls	1336
+Þingeyjarsveit	Alls	2010	Alls	1316
+Þingeyjarsveit	Alls	2011	Alls	1319
+Þingeyjarsveit	Alls	2012	Alls	1282
+Þingeyjarsveit	Alls	2013	Alls	1271
+Þingeyjarsveit	Alls	2014	Alls	1274
+Þingeyjarsveit	Alls	2015	Alls	1301
+Þingeyjarsveit	Alls	2016	Alls	1308
+Þingeyjarsveit	Alls	2017	Alls	1316
+Þingeyjarsveit	Alls	2018	Alls	1412
+Þingeyjarsveit	Alls	2019	Alls	1346
+Þingeyjarsveit	Alls	2020	Alls	1321
+Þingeyjarsveit	Alls	2021	Alls	1267
+Þingeyjarsveit	Alls	2022	Alls	1306
+Þingeyjarsveit	Alls	2023	Alls	1345
+Þingeyjarsveit	Alls	2024	Alls	1410
+Langanesbyggð	Alls	2006	Alls	651
+Langanesbyggð	Alls	2007	Alls	626
+Langanesbyggð	Alls	2008	Alls	596
+Langanesbyggð	Alls	2009	Alls	616
+Langanesbyggð	Alls	2010	Alls	632
+Langanesbyggð	Alls	2011	Alls	603
+Langanesbyggð	Alls	2012	Alls	609
+Langanesbyggð	Alls	2013	Alls	612
+Langanesbyggð	Alls	2014	Alls	614
+Langanesbyggð	Alls	2015	Alls	604
+Langanesbyggð	Alls	2016	Alls	597
+Langanesbyggð	Alls	2017	Alls	572
+Langanesbyggð	Alls	2018	Alls	565
+Langanesbyggð	Alls	2019	Alls	575
+Langanesbyggð	Alls	2020	Alls	555
+Langanesbyggð	Alls	2021	Alls	580
+Langanesbyggð	Alls	2022	Alls	576
+Langanesbyggð	Alls	2023	Alls	559
+Langanesbyggð	Alls	2024	Alls	540
+Fjarðabyggð	Alls	2006	Alls	5088
+Fjarðabyggð	Alls	2007	Alls	5959
+Fjarðabyggð	Alls	2008	Alls	5368
+Fjarðabyggð	Alls	2009	Alls	4920
+Fjarðabyggð	Alls	2010	Alls	4851
+Fjarðabyggð	Alls	2011	Alls	4739
+Fjarðabyggð	Alls	2012	Alls	4731
+Fjarðabyggð	Alls	2013	Alls	4732
+Fjarðabyggð	Alls	2014	Alls	4813
+Fjarðabyggð	Alls	2015	Alls	4879
+Fjarðabyggð	Alls	2016	Alls	4807
+Fjarðabyggð	Alls	2017	Alls	4813
+Fjarðabyggð	Alls	2018	Alls	4897
+Fjarðabyggð	Alls	2019	Alls	5013
+Fjarðabyggð	Alls	2020	Alls	4983
+Fjarðabyggð	Alls	2021	Alls	4967
+Fjarðabyggð	Alls	2022	Alls	5074
+Fjarðabyggð	Alls	2023	Alls	5070
+Fjarðabyggð	Alls	2024	Alls	5163
+Múlaþing	Alls	2006	Alls	5326
+Múlaþing	Alls	2007	Alls	5988
+Múlaþing	Alls	2008	Alls	5416
+Múlaþing	Alls	2009	Alls	5008
+Múlaþing	Alls	2010	Alls	4750
+Múlaþing	Alls	2011	Alls	4604
+Múlaþing	Alls	2012	Alls	4615
+Múlaþing	Alls	2013	Alls	4638
+Múlaþing	Alls	2014	Alls	4683
+Múlaþing	Alls	2015	Alls	4624
+Múlaþing	Alls	2016	Alls	4636
+Múlaþing	Alls	2017	Alls	4672
+Múlaþing	Alls	2018	Alls	4753
+Múlaþing	Alls	2019	Alls	4818
+Múlaþing	Alls	2020	Alls	4853
+Múlaþing	Alls	2021	Alls	4929
+Múlaþing	Alls	2022	Alls	4960
+Múlaþing	Alls	2023	Alls	5076
+Múlaþing	Alls	2024	Alls	5177
+Vopnafjarðarhreppur	Alls	2006	Alls	726
+Vopnafjarðarhreppur	Alls	2007	Alls	712
+Vopnafjarðarhreppur	Alls	2008	Alls	699
+Vopnafjarðarhreppur	Alls	2009	Alls	674
+Vopnafjarðarhreppur	Alls	2010	Alls	683
+Vopnafjarðarhreppur	Alls	2011	Alls	664
+Vopnafjarðarhreppur	Alls	2012	Alls	662
+Vopnafjarðarhreppur	Alls	2013	Alls	679
+Vopnafjarðarhreppur	Alls	2014	Alls	689
+Vopnafjarðarhreppur	Alls	2015	Alls	669
+Vopnafjarðarhreppur	Alls	2016	Alls	647
+Vopnafjarðarhreppur	Alls	2017	Alls	642
+Vopnafjarðarhreppur	Alls	2018	Alls	654
+Vopnafjarðarhreppur	Alls	2019	Alls	656
+Vopnafjarðarhreppur	Alls	2020	Alls	652
+Vopnafjarðarhreppur	Alls	2021	Alls	648
+Vopnafjarðarhreppur	Alls	2022	Alls	660
+Vopnafjarðarhreppur	Alls	2023	Alls	650
+Vopnafjarðarhreppur	Alls	2024	Alls	650
+Fljótsdalshreppur	Alls	2006	Alls	376
+Fljótsdalshreppur	Alls	2007	Alls	526
+Fljótsdalshreppur	Alls	2008	Alls	394
+Fljótsdalshreppur	Alls	2009	Alls	135
+Fljótsdalshreppur	Alls	2010	Alls	89
+Fljótsdalshreppur	Alls	2011	Alls	79
+Fljótsdalshreppur	Alls	2012	Alls	77
+Fljótsdalshreppur	Alls	2013	Alls	80
+Fljótsdalshreppur	Alls	2014	Alls	68
+Fljótsdalshreppur	Alls	2015	Alls	75
+Fljótsdalshreppur	Alls	2016	Alls	73
+Fljótsdalshreppur	Alls	2017	Alls	81
+Fljótsdalshreppur	Alls	2018	Alls	76
+Fljótsdalshreppur	Alls	2019	Alls	73
+Fljótsdalshreppur	Alls	2020	Alls	84
+Fljótsdalshreppur	Alls	2021	Alls	93
+Fljótsdalshreppur	Alls	2022	Alls	97
+Fljótsdalshreppur	Alls	2023	Alls	85
+Fljótsdalshreppur	Alls	2024	Alls	95
+Vestmannaeyjabær	Alls	2006	Alls	4172
+Vestmannaeyjabær	Alls	2007	Alls	4084
+Vestmannaeyjabær	Alls	2008	Alls	4055
+Vestmannaeyjabær	Alls	2009	Alls	4086
+Vestmannaeyjabær	Alls	2010	Alls	4135
+Vestmannaeyjabær	Alls	2011	Alls	4092
+Vestmannaeyjabær	Alls	2012	Alls	4148
+Vestmannaeyjabær	Alls	2013	Alls	4182
+Vestmannaeyjabær	Alls	2014	Alls	4232
+Vestmannaeyjabær	Alls	2015	Alls	4239
+Vestmannaeyjabær	Alls	2016	Alls	4232
+Vestmannaeyjabær	Alls	2017	Alls	4246
+Vestmannaeyjabær	Alls	2018	Alls	4244
+Vestmannaeyjabær	Alls	2019	Alls	4243
+Vestmannaeyjabær	Alls	2020	Alls	4264
+Vestmannaeyjabær	Alls	2021	Alls	4248
+Vestmannaeyjabær	Alls	2022	Alls	4286
+Vestmannaeyjabær	Alls	2023	Alls	4376
+Vestmannaeyjabær	Alls	2024	Alls	4444
+Sveitarfélagið Árborg	Alls	2006	Alls	6987
+Sveitarfélagið Árborg	Alls	2007	Alls	7311
+Sveitarfélagið Árborg	Alls	2008	Alls	7635
+Sveitarfélagið Árborg	Alls	2009	Alls	7922
+Sveitarfélagið Árborg	Alls	2010	Alls	7811
+Sveitarfélagið Árborg	Alls	2011	Alls	7729
+Sveitarfélagið Árborg	Alls	2012	Alls	7694
+Sveitarfélagið Árborg	Alls	2013	Alls	7740
+Sveitarfélagið Árborg	Alls	2014	Alls	7795
+Sveitarfélagið Árborg	Alls	2015	Alls	7960
+Sveitarfélagið Árborg	Alls	2016	Alls	8108
+Sveitarfélagið Árborg	Alls	2017	Alls	8368
+Sveitarfélagið Árborg	Alls	2018	Alls	8892
+Sveitarfélagið Árborg	Alls	2019	Alls	9364
+Sveitarfélagið Árborg	Alls	2020	Alls	9902
+Sveitarfélagið Árborg	Alls	2021	Alls	10286
+Sveitarfélagið Árborg	Alls	2022	Alls	10664
+Sveitarfélagið Árborg	Alls	2023	Alls	11052
+Sveitarfélagið Árborg	Alls	2024	Alls	11565
+Sveitarfélagið Hornafjörður	Alls	2006	Alls	2181
+Sveitarfélagið Hornafjörður	Alls	2007	Alls	2181
+Sveitarfélagið Hornafjörður	Alls	2008	Alls	2125
+Sveitarfélagið Hornafjörður	Alls	2009	Alls	2112
+Sveitarfélagið Hornafjörður	Alls	2010	Alls	2086
+Sveitarfélagið Hornafjörður	Alls	2011	Alls	2095
+Sveitarfélagið Hornafjörður	Alls	2012	Alls	2122
+Sveitarfélagið Hornafjörður	Alls	2013	Alls	2141
+Sveitarfélagið Hornafjörður	Alls	2014	Alls	2152
+Sveitarfélagið Hornafjörður	Alls	2015	Alls	2123
+Sveitarfélagið Hornafjörður	Alls	2016	Alls	2142
+Sveitarfélagið Hornafjörður	Alls	2017	Alls	2164
+Sveitarfélagið Hornafjörður	Alls	2018	Alls	2269
+Sveitarfélagið Hornafjörður	Alls	2019	Alls	2357
+Sveitarfélagið Hornafjörður	Alls	2020	Alls	2359
+Sveitarfélagið Hornafjörður	Alls	2021	Alls	2305
+Sveitarfélagið Hornafjörður	Alls	2022	Alls	2359
+Sveitarfélagið Hornafjörður	Alls	2023	Alls	2447
+Sveitarfélagið Hornafjörður	Alls	2024	Alls	2487
+Mýrdalshreppur	Alls	2006	Alls	504
+Mýrdalshreppur	Alls	2007	Alls	496
+Mýrdalshreppur	Alls	2008	Alls	489
+Mýrdalshreppur	Alls	2009	Alls	489
+Mýrdalshreppur	Alls	2010	Alls	510
+Mýrdalshreppur	Alls	2011	Alls	459
+Mýrdalshreppur	Alls	2012	Alls	451
+Mýrdalshreppur	Alls	2013	Alls	456
+Mýrdalshreppur	Alls	2014	Alls	485
+Mýrdalshreppur	Alls	2015	Alls	478
+Mýrdalshreppur	Alls	2016	Alls	513
+Mýrdalshreppur	Alls	2017	Alls	552
+Mýrdalshreppur	Alls	2018	Alls	611
+Mýrdalshreppur	Alls	2019	Alls	667
+Mýrdalshreppur	Alls	2020	Alls	683
+Mýrdalshreppur	Alls	2021	Alls	707
+Mýrdalshreppur	Alls	2022	Alls	758
+Mýrdalshreppur	Alls	2023	Alls	802
+Mýrdalshreppur	Alls	2024	Alls	881
+Skaftárhreppur	Alls	2006	Alls	491
+Skaftárhreppur	Alls	2007	Alls	487
+Skaftárhreppur	Alls	2008	Alls	469
+Skaftárhreppur	Alls	2009	Alls	465
+Skaftárhreppur	Alls	2010	Alls	445
+Skaftárhreppur	Alls	2011	Alls	441
+Skaftárhreppur	Alls	2012	Alls	438
+Skaftárhreppur	Alls	2013	Alls	439
+Skaftárhreppur	Alls	2014	Alls	448
+Skaftárhreppur	Alls	2015	Alls	457
+Skaftárhreppur	Alls	2016	Alls	465
+Skaftárhreppur	Alls	2017	Alls	470
+Skaftárhreppur	Alls	2018	Alls	555
+Skaftárhreppur	Alls	2019	Alls	571
+Skaftárhreppur	Alls	2020	Alls	580
+Skaftárhreppur	Alls	2021	Alls	562
+Skaftárhreppur	Alls	2022	Alls	580
+Skaftárhreppur	Alls	2023	Alls	609
+Skaftárhreppur	Alls	2024	Alls	620
+Ásahreppur	Alls	2006	Alls	164
+Ásahreppur	Alls	2007	Alls	158
+Ásahreppur	Alls	2008	Alls	173
+Ásahreppur	Alls	2009	Alls	178
+Ásahreppur	Alls	2010	Alls	190
+Ásahreppur	Alls	2011	Alls	188
+Ásahreppur	Alls	2012	Alls	198
+Ásahreppur	Alls	2013	Alls	190
+Ásahreppur	Alls	2014	Alls	188
+Ásahreppur	Alls	2015	Alls	211
+Ásahreppur	Alls	2016	Alls	213
+Ásahreppur	Alls	2017	Alls	251
+Ásahreppur	Alls	2018	Alls	246
+Ásahreppur	Alls	2019	Alls	232
+Ásahreppur	Alls	2020	Alls	232
+Ásahreppur	Alls	2021	Alls	246
+Ásahreppur	Alls	2022	Alls	246
+Ásahreppur	Alls	2023	Alls	268
+Ásahreppur	Alls	2024	Alls	293
+Rangárþing eystra	Alls	2006	Alls	1669
+Rangárþing eystra	Alls	2007	Alls	1696
+Rangárþing eystra	Alls	2008	Alls	1752
+Rangárþing eystra	Alls	2009	Alls	1762
+Rangárþing eystra	Alls	2010	Alls	1745
+Rangárþing eystra	Alls	2011	Alls	1681
+Rangárþing eystra	Alls	2012	Alls	1697
+Rangárþing eystra	Alls	2013	Alls	1700
+Rangárþing eystra	Alls	2014	Alls	1681
+Rangárþing eystra	Alls	2015	Alls	1725
+Rangárþing eystra	Alls	2016	Alls	1742
+Rangárþing eystra	Alls	2017	Alls	1711
+Rangárþing eystra	Alls	2018	Alls	1771
+Rangárþing eystra	Alls	2019	Alls	1889
+Rangárþing eystra	Alls	2020	Alls	1905
+Rangárþing eystra	Alls	2021	Alls	1846
+Rangárþing eystra	Alls	2022	Alls	1892
+Rangárþing eystra	Alls	2023	Alls	1949
+Rangárþing eystra	Alls	2024	Alls	2007
+Rangárþing ytra	Alls	2006	Alls	1454
+Rangárþing ytra	Alls	2007	Alls	1528
+Rangárþing ytra	Alls	2008	Alls	1557
+Rangárþing ytra	Alls	2009	Alls	1604
+Rangárþing ytra	Alls	2010	Alls	1543
+Rangárþing ytra	Alls	2011	Alls	1506
+Rangárþing ytra	Alls	2012	Alls	1477
+Rangárþing ytra	Alls	2013	Alls	1481
+Rangárþing ytra	Alls	2014	Alls	1515
+Rangárþing ytra	Alls	2015	Alls	1519
+Rangárþing ytra	Alls	2016	Alls	1497
+Rangárþing ytra	Alls	2017	Alls	1510
+Rangárþing ytra	Alls	2018	Alls	1582
+Rangárþing ytra	Alls	2019	Alls	1606
+Rangárþing ytra	Alls	2020	Alls	1644
+Rangárþing ytra	Alls	2021	Alls	1686
+Rangárþing ytra	Alls	2022	Alls	1745
+Rangárþing ytra	Alls	2023	Alls	1807
+Rangárþing ytra	Alls	2024	Alls	1867
+Hrunamannahreppur	Alls	2006	Alls	766
+Hrunamannahreppur	Alls	2007	Alls	786
+Hrunamannahreppur	Alls	2008	Alls	805
+Hrunamannahreppur	Alls	2009	Alls	793
+Hrunamannahreppur	Alls	2010	Alls	788
+Hrunamannahreppur	Alls	2011	Alls	781
+Hrunamannahreppur	Alls	2012	Alls	756
+Hrunamannahreppur	Alls	2013	Alls	778
+Hrunamannahreppur	Alls	2014	Alls	776
+Hrunamannahreppur	Alls	2015	Alls	787
+Hrunamannahreppur	Alls	2016	Alls	784
+Hrunamannahreppur	Alls	2017	Alls	760
+Hrunamannahreppur	Alls	2018	Alls	762
+Hrunamannahreppur	Alls	2019	Alls	775
+Hrunamannahreppur	Alls	2020	Alls	800
+Hrunamannahreppur	Alls	2021	Alls	796
+Hrunamannahreppur	Alls	2022	Alls	796
+Hrunamannahreppur	Alls	2023	Alls	852
+Hrunamannahreppur	Alls	2024	Alls	865
+Hveragerðisbær	Alls	2006	Alls	2084
+Hveragerðisbær	Alls	2007	Alls	2184
+Hveragerðisbær	Alls	2008	Alls	2289
+Hveragerðisbær	Alls	2009	Alls	2315
+Hveragerðisbær	Alls	2010	Alls	2291
+Hveragerðisbær	Alls	2011	Alls	2275
+Hveragerðisbær	Alls	2012	Alls	2237
+Hveragerðisbær	Alls	2013	Alls	2252
+Hveragerðisbær	Alls	2014	Alls	2300
+Hveragerðisbær	Alls	2015	Alls	2345
+Hveragerðisbær	Alls	2016	Alls	2422
+Hveragerðisbær	Alls	2017	Alls	2441
+Hveragerðisbær	Alls	2018	Alls	2533
+Hveragerðisbær	Alls	2019	Alls	2596
+Hveragerðisbær	Alls	2020	Alls	2654
+Hveragerðisbær	Alls	2021	Alls	2739
+Hveragerðisbær	Alls	2022	Alls	2941
+Hveragerðisbær	Alls	2023	Alls	3139
+Hveragerðisbær	Alls	2024	Alls	3265
+Sveitarfélagið Ölfus	Alls	2006	Alls	1794
+Sveitarfélagið Ölfus	Alls	2007	Alls	1846
+Sveitarfélagið Ölfus	Alls	2008	Alls	1957
+Sveitarfélagið Ölfus	Alls	2009	Alls	1997
+Sveitarfélagið Ölfus	Alls	2010	Alls	1952
+Sveitarfélagið Ölfus	Alls	2011	Alls	1883
+Sveitarfélagið Ölfus	Alls	2012	Alls	1888
+Sveitarfélagið Ölfus	Alls	2013	Alls	1872
+Sveitarfélagið Ölfus	Alls	2014	Alls	1878
+Sveitarfélagið Ölfus	Alls	2015	Alls	1858
+Sveitarfélagið Ölfus	Alls	2016	Alls	1909
+Sveitarfélagið Ölfus	Alls	2017	Alls	1961
+Sveitarfélagið Ölfus	Alls	2018	Alls	2084
+Sveitarfélagið Ölfus	Alls	2019	Alls	2106
+Sveitarfélagið Ölfus	Alls	2020	Alls	2197
+Sveitarfélagið Ölfus	Alls	2021	Alls	2290
+Sveitarfélagið Ölfus	Alls	2022	Alls	2388
+Sveitarfélagið Ölfus	Alls	2023	Alls	2475
+Sveitarfélagið Ölfus	Alls	2024	Alls	2631
+Grímsnes- og Grafningshreppur	Alls	2006	Alls	358
+Grímsnes- og Grafningshreppur	Alls	2007	Alls	376
+Grímsnes- og Grafningshreppur	Alls	2008	Alls	378
+Grímsnes- og Grafningshreppur	Alls	2009	Alls	442
+Grímsnes- og Grafningshreppur	Alls	2010	Alls	415
+Grímsnes- og Grafningshreppur	Alls	2011	Alls	385
+Grímsnes- og Grafningshreppur	Alls	2012	Alls	404
+Grímsnes- og Grafningshreppur	Alls	2013	Alls	408
+Grímsnes- og Grafningshreppur	Alls	2014	Alls	405
+Grímsnes- og Grafningshreppur	Alls	2015	Alls	412
+Grímsnes- og Grafningshreppur	Alls	2016	Alls	445
+Grímsnes- og Grafningshreppur	Alls	2017	Alls	452
+Grímsnes- og Grafningshreppur	Alls	2018	Alls	468
+Grímsnes- og Grafningshreppur	Alls	2019	Alls	478
+Grímsnes- og Grafningshreppur	Alls	2020	Alls	481
+Grímsnes- og Grafningshreppur	Alls	2021	Alls	474
+Grímsnes- og Grafningshreppur	Alls	2022	Alls	499
+Grímsnes- og Grafningshreppur	Alls	2023	Alls	502
+Grímsnes- og Grafningshreppur	Alls	2024	Alls	539
+Skeiða- og Gnúpverjahreppur	Alls	2006	Alls	521
+Skeiða- og Gnúpverjahreppur	Alls	2007	Alls	528
+Skeiða- og Gnúpverjahreppur	Alls	2008	Alls	536
+Skeiða- og Gnúpverjahreppur	Alls	2009	Alls	515
+Skeiða- og Gnúpverjahreppur	Alls	2010	Alls	517
+Skeiða- og Gnúpverjahreppur	Alls	2011	Alls	495
+Skeiða- og Gnúpverjahreppur	Alls	2012	Alls	498
+Skeiða- og Gnúpverjahreppur	Alls	2013	Alls	496
+Skeiða- og Gnúpverjahreppur	Alls	2014	Alls	520
+Skeiða- og Gnúpverjahreppur	Alls	2015	Alls	498
+Skeiða- og Gnúpverjahreppur	Alls	2016	Alls	509
+Skeiða- og Gnúpverjahreppur	Alls	2017	Alls	586
+Skeiða- og Gnúpverjahreppur	Alls	2018	Alls	646
+Skeiða- og Gnúpverjahreppur	Alls	2019	Alls	568
+Skeiða- og Gnúpverjahreppur	Alls	2020	Alls	554
+Skeiða- og Gnúpverjahreppur	Alls	2021	Alls	560
+Skeiða- og Gnúpverjahreppur	Alls	2022	Alls	570
+Skeiða- og Gnúpverjahreppur	Alls	2023	Alls	565
+Skeiða- og Gnúpverjahreppur	Alls	2024	Alls	591
+Bláskógabyggð	Alls	2006	Alls	924
+Bláskógabyggð	Alls	2007	Alls	928
+Bláskógabyggð	Alls	2008	Alls	982
+Bláskógabyggð	Alls	2009	Alls	986
+Bláskógabyggð	Alls	2010	Alls	935
+Bláskógabyggð	Alls	2011	Alls	912
+Bláskógabyggð	Alls	2012	Alls	879
+Bláskógabyggð	Alls	2013	Alls	878
+Bláskógabyggð	Alls	2014	Alls	912
+Bláskógabyggð	Alls	2015	Alls	940
+Bláskógabyggð	Alls	2016	Alls	957
+Bláskógabyggð	Alls	2017	Alls	1004
+Bláskógabyggð	Alls	2018	Alls	1091
+Bláskógabyggð	Alls	2019	Alls	1098
+Bláskógabyggð	Alls	2020	Alls	1117
+Bláskógabyggð	Alls	2021	Alls	1062
+Bláskógabyggð	Alls	2022	Alls	1099
+Bláskógabyggð	Alls	2023	Alls	1208
+Bláskógabyggð	Alls	2024	Alls	1322
+Flóahreppur	Alls	2006	Alls	525
+Flóahreppur	Alls	2007	Alls	559
+Flóahreppur	Alls	2008	Alls	585
+Flóahreppur	Alls	2009	Alls	596
+Flóahreppur	Alls	2010	Alls	602
+Flóahreppur	Alls	2011	Alls	585
+Flóahreppur	Alls	2012	Alls	595
+Flóahreppur	Alls	2013	Alls	628
+Flóahreppur	Alls	2014	Alls	621
+Flóahreppur	Alls	2015	Alls	606
+Flóahreppur	Alls	2016	Alls	613
+Flóahreppur	Alls	2017	Alls	641
+Flóahreppur	Alls	2018	Alls	635
+Flóahreppur	Alls	2019	Alls	656
+Flóahreppur	Alls	2020	Alls	670
+Flóahreppur	Alls	2021	Alls	673
+Flóahreppur	Alls	2022	Alls	679
+Flóahreppur	Alls	2023	Alls	691
+Flóahreppur	Alls	2024	Alls	699

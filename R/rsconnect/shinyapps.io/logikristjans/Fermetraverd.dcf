@@ -1,0 +1,12 @@
+name: Fermetraverd
+title: Fermetraverd
+username: logikristjans
+account: logikristjans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13262103
+bundleId: 9328499
+url: https://logikristjans.shinyapps.io/Fermetraverd/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

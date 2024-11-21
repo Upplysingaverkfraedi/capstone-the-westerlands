@@ -1,0 +1,100 @@
+---
+title: "capstone - vísitala"
+author: "jakobina"
+date: "2024-11-04"
+output: html_document
+---
+```{r}
+install.packages("shiny")
+install.packages("ggplot2")
+install.packages("dplyr")
+library(tidyverse)
+```
+
+```{r}
+library(readxl)
+visitala <- read_excel("/Users/Dalros/Desktop/Capstone-töflur.xlsx", sheet = "vísitala íbúðarverðs")
+View(visitala)
+visitalabygg <- read_excel("/Users/Dalros/Desktop/Capstone-töflur.xlsx", sheet = "visitala án íbúðarverðs")
+```
+
+
+```{r}
+##endurstilla víssitöluna þannig að hún byrji í 100 árið 1994
+upphafsgildi <- visitala$Vísitala[1]
+
+# Breyttu vísitölunni þannig að hún byrji í 100
+visitala$Vísitala<- round((visitala$Vísitala / upphafsgildi) * 100 ,2)
+```
+
+
+```{r}
+#nota REGEX til að flokka út bara þann tíma sem endar á 01
+visitala <- visitala[grepl("01$", visitala$Tími), ]
+```
+
+```{r}
+visitala$Tími <- gsub("M[0-9]{2}", "", visitala$Tími)  # Fjarlægja MXX
+visitala$Tími <- as.numeric(visitala$Tími)  # Breyta í tölulegt gildi
+```
+
+```{r}
+visitalabygg <- visitalabygg %>%
+  filter(Mánuður == 1) # notum bara fyrsta mánuðinn í visitalabygg líka
+```
+
+```{r}
+visitala<- visitala %>%
+  slice(-n())
+```
+
+```{r}
+sameinuð_tafla <- visitalabygg %>%
+  left_join(visitala, by = c("Ár" = "Tími")) #búum til nýja töflu til þess að nota
+```
+
+
+```{r}
+library(shiny)
+library(ggplot2)
+library(dplyr)
+
+# Búðu Shiny forritið
+ui <- fluidPage(
+  titlePanel("Vísitölur yfir Tíma"),
+  sidebarLayout(
+    sidebarPanel(
+      helpText("Línurit sem sýnir breytingu á vísitölum.")
+    ),
+    mainPanel(
+      plotOutput("linePlot")  # Línurit
+    )
+  )
+)
+
+server <- function(input, output) {
+  output$linePlot <- renderPlot({
+    ggplot(data = sameinuð_tafla, aes(x = Ár)) +  # Nota 'Ár' sem x-ásinn
+      geom_line(aes(y = Vísitala, color = "Vísitala neysluverðs án húsnæðis"), size = 2) +  # Lína fyrir Vísitala
+      geom_line(aes(y = Vísitala_fjölb, color = "Vísitala fjölbílishús"), size = 1) +  # Lína fyrir Vísitala_fjölb
+      geom_line(aes(y = Visitala_serb, color = "Vísitala sérbíli"), size = 1) +  # Lína fyrir Visitala_serb
+      geom_line(aes(y = Visitala_heild, color = "Vísitala íbúðarverðs"), size = 2) +  # Lína fyrir Visitala_heild
+      labs(title = "Vísitölur yfir Tíma", x = "Ár", y = "Vísitala") +
+      scale_color_manual(name = "Vísitala", values = c(
+        "Vísitala neysluverðs án húsnæðis" = "#99FF00",
+        "Vísitala fjölbílishús" = "#FFCC66",
+        "Vísitala sérbíli" = "#FFCCCC",
+        "Vísitala íbúðarverðs" = "#FF0099"
+      )) +  # Breyta litum fyrir línurnar
+      theme_minimal()
+  })
+}
+
+# Keyra Shiny forritið
+shinyApp(ui = ui, server = server)
+
+
+```
+
+
+

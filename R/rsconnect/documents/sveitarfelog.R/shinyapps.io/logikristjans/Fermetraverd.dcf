@@ -1,0 +1,13 @@
+name: Fermetraverd
+title: Fermetraverd
+username: logikristjans
+account: logikristjans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13263007
+bundleId: 9328945
+url: https://logikristjans.shinyapps.io/Fermetraverd/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: visitolugraf.Rmd
