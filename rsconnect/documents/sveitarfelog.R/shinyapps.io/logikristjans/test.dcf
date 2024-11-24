@@ -1,0 +1,13 @@
+name: test
+title: test
+username: logikristjans
+account: logikristjans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13407782
+bundleId: 9394311
+url: https://logikristjans.shinyapps.io/test/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Renviron

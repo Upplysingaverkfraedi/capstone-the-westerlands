@@ -1,0 +1,13 @@
+name: test6
+title: test6
+username: logikristjans
+account: logikristjans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13437224
+bundleId: 9409399
+url: https://logikristjans.shinyapps.io/test6/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: capstone-samsett2.R|sveitarfelog.R

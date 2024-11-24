@@ -65,8 +65,6 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
-# config skrar
-R/config.yml
 
 # Scrapy stuff:
 .scrapy
@@ -132,6 +130,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.Renviron
 
 # Spyder project settings
 .spyderproject

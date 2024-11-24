@@ -1,0 +1,12 @@
+name: test5
+title: test5
+username: logikristjans
+account: logikristjans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13408024
+bundleId: 9394402
+url: https://logikristjans.shinyapps.io/test5/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -18,9 +18,12 @@ database:
   host: "junction.proxy.rlwy.net"
   port: 11050
   user: "lesenda_adgangur"
-  password: "Þitt_lykilorð"
+
+Búðu til .Renviron skrá og settu hana svona upp með lykilorði að gagnagrunninum: 
+
+PG_PASSWORD=þitt_lykilorð
   
-4. **Keyrsla**: Keyrðu forritið Sveitarfelag.R í möppunni 'R'
+4. **Keyrsla**: Keyrðu forritið app.R
 
 **Kröfur**
 R (mælt með nýjustu útgáfu RStudio)

@@ -1,0 +1,5 @@
+database:
+  dbname: "railway"
+  host: "junction.proxy.rlwy.net"
+  port: 11050
+  user: "lesenda_adgangur"
